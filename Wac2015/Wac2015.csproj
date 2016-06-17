@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FDEC23E-5334-4ECA-B540-6F9830E7D6EE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wac2015</RootNamespace>
+    <AssemblyName>Wac2015</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <NuGetPackageImportStamp>1bc29153</NuGetPackageImportStamp>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Controls\CircleImage.cs" />
+    <Compile Include="Controls\CustomListView.cs" />
+    <Compile Include="Controls\FontLabel.cs" />
+    <Compile Include="Controls\IPlatforms.cs" />
+    <Compile Include="Controls\LinkLabel.cs" />
+    <Compile Include="Converters\CachableImageSourceFromLinkConverter.cs" />
+    <Compile Include="Converters\SpeakerImageConverter.cs" />
+    <Compile Include="Data\RefreshInfo.cs" />
+    <Compile Include="Data\RefreshType.cs" />
+    <Compile Include="Helpers\AppStorageHelper.cs" />
+    <Compile Include="Helpers\CaseConverter.cs" />
+    <Compile Include="Helpers\ConferenceManager.cs" />
+    <Compile Include="Helpers\FeedbackManager.cs" />
+    <Compile Include="Helpers\INetworkMonitor.cs" />
+    <Compile Include="Helpers\LoadEventArgs.cs" />
+    <Compile Include="Helpers\Settings.cs" />
+    <Compile Include="Helpers\ToObservable.cs" />
+    <Compile Include="Helpers\TwitterManager.cs" />
+    <Compile Include="Helpers\Utils.cs" />
+    <Compile Include="ISQLite.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AlphaKeyGroup.cs" />
+    <Compile Include="Models\AppStorage.cs" />
+    <Compile Include="Models\AppStorageDatabase.cs" />
+    <Compile Include="Models\AzureModels.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\Session.cs" />
+    <Compile Include="Models\SessionKeyGroup.cs" />
+    <Compile Include="Models\Speaker.cs" />
+    <Compile Include="Models\Tweet.cs" />
+    <Compile Include="Models\TwitterAccount.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\BaseViewModel.cs" />
+    <Compile Include="ViewModels\Group.cs" />
+    <Compile Include="ViewModels\ItemViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\ModelBase.cs" />
+    <Compile Include="ViewModels\SessionViewModel.cs" />
+    <Compile Include="ViewModels\SpeakerViewModel.cs" />
+    <Compile Include="Views\AboutPage.cs" />
+    <Compile Include="Views\Cells\AboutTextCell.cs" />
+    <Compile Include="Views\Cells\MenuCell.cs" />
+    <Compile Include="Views\Cells\NewsCell.cs" />
+    <Compile Include="Views\Cells\SessionCelliOS.cs" />
+    <Compile Include="Views\Cells\SessionCell.cs" />
+    <Compile Include="Views\Cells\SessionByTrackHeaderCell.cs" />
+    <Compile Include="Views\Cells\SessionHeaderCell.cs" />
+    <Compile Include="Views\Cells\SpeakerCell.cs" />
+    <Compile Include="Views\Cells\SpeakerDetailsCelliOS.cs" />
+    <Compile Include="Views\Cells\SpeakerDetailsCell.cs" />
+    <Compile Include="Views\Cells\SpeakerHeaderCell.cs" />
+    <Compile Include="Views\ContactUsPage.cs" />
+    <Compile Include="Views\ExtendedSessionFeedback.cs" />
+    <Compile Include="Views\MenuPage.cs" />
+    <Compile Include="Views\MyAgenda.cs" />
+    <Compile Include="Views\NewsDetailPage.cs" />
+    <Compile Include="Views\NewsPage.cs" />
+    <Compile Include="Views\ResourcesPage.cs" />
+    <Compile Include="Views\SessionFeedbackPage.cs" />
+    <Compile Include="Views\SessionPage.cs" />
+    <Compile Include="Views\SessionsByTrack.cs" />
+    <Compile Include="Views\SessionsByTime.cs" />
+    <Compile Include="Views\SessionsPage.cs" />
+    <Compile Include="Views\SpeakerPage.cs" />
+    <Compile Include="Views\SpeakersPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ExifLib">
+      <HintPath>..\..\packages\ExifLib.PCL.1.0.0\lib\portable-net45+sl50+win+WindowsPhoneApp81+wp80+MonoAndroid10+MonoTouch10\ExifLib.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToTwitterPcl">
+      <HintPath>..\..\packages\LinqToTwitter.3.1.2\lib\portable-win8+net45+wp8\LinqToTwitterPcl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile">
+      <HintPath>..\..\packages\WindowsAzure.MobileServices.1.3.1\lib\portable-win+net45+wp8+wpa81+monotouch+monoandroid\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\portable-net45+wp80+win8+wpa81+aspnetcore50\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net">
+      <HintPath>..\..\packages\SQLite.Net-PCL.2.5.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>..\..\packages\Microsoft.Bcl.Compression.3.9.85\lib\portable-net45+win8+wp8+wpa81\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\..\packages\Rx-Core.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\..\packages\Rx-Interfaces.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\..\packages\Rx-Linq.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\..\packages\Rx-PlatformServices.2.2.5\lib\portable-windows8+net45+wp8\System.Reactive.PlatformServices.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.5.6335\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.5.6335\lib\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\..\packages\Xamarin.Insights.1.9.1.107\lib\portable-win+net40+wp80+windows8+wpa+MonoAndroid10+MonoTouch10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <EmbeddedResource Include="SessionData\SessionsData.json" />
+    <EmbeddedResource Include="SessionData\Sessions.json" />
+    <EmbeddedResource Include="SessionData\AzureSessions.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\speakers\02858a4b-89e5-483e-befa-9d603d455542.png" />
+    <EmbeddedResource Include="Images\speakers\0362bd3b-2d02-49b4-84da-8ee07fe4d33f.png" />
+    <EmbeddedResource Include="Images\speakers\0482def3-5247-418d-bbcf-3984555aba9d.png" />
+    <EmbeddedResource Include="Images\speakers\06d370d6-2863-4a97-8ad1-b0ba075d9294.png" />
+    <EmbeddedResource Include="Images\speakers\074a53c4-3c92-4a8a-8537-c04c781019de.png" />
+    <EmbeddedResource Include="Images\speakers\0838696f-efab-4442-a14d-68d5c9125e2e.png" />
+    <EmbeddedResource Include="Images\speakers\08da06ad-7690-4310-acc8-e9a7af9fb73c.png" />
+    <EmbeddedResource Include="Images\speakers\0b64efb6-b47e-42c8-93c2-6f02bc7442b1.png" />
+    <EmbeddedResource Include="Images\speakers\0be8c32e-ae0e-48e0-9505-6b6b6efc2eb0.png" />
+    <EmbeddedResource Include="Images\speakers\191a33fc-c169-47c2-b070-a8324e051461.png" />
+    <EmbeddedResource Include="Images\speakers\1d08db9a-3440-40b3-93b1-b296c4eef9c5.png" />
+    <EmbeddedResource Include="Images\speakers\1d17cb60-dda7-43e1-a19f-4bcbff61b52d.png" />
+    <EmbeddedResource Include="Images\speakers\1e236373-2652-4100-9113-88b78dafc147.png" />
+    <EmbeddedResource Include="Images\speakers\1e910960-d90a-48cb-8525-b2e5170c3d23.png" />
+    <EmbeddedResource Include="Images\speakers\201c01ec-6322-498c-aa1e-e5e10c09c904.png" />
+    <EmbeddedResource Include="Images\speakers\22fd91f8-f39c-4e85-8140-8891c199593e.png" />
+    <EmbeddedResource Include="Images\speakers\23ae86b1-8ff8-4386-908d-c5f6bc608b4f.png" />
+    <EmbeddedResource Include="Images\speakers\244b5539-ea43-4e5a-be19-67b613054df0.png" />
+    <EmbeddedResource Include="Images\speakers\27438598-d33b-4d3b-a2a6-1e99e41aed33.png" />
+    <EmbeddedResource Include="Images\speakers\2b947870-87ba-428b-a419-61e07652d79a.png" />
+    <EmbeddedResource Include="Images\speakers\2d211683-2d63-48ec-9598-9a8d9937b2f7.png" />
+    <EmbeddedResource Include="Images\speakers\2e118671-fc0c-4d61-b660-17bf53a3385a.png" />
+    <EmbeddedResource Include="Images\speakers\34d0c08a-7c1b-4d80-a42a-720363a56ece.png" />
+    <EmbeddedResource Include="Images\speakers\36733c63-4cc0-47ed-9d01-a569488462e7.png" />
+    <EmbeddedResource Include="Images\speakers\382f5a4c-e94d-4e31-89b6-f1be517d5dbf.png" />
+    <EmbeddedResource Include="Images\speakers\39c2a7d0-1672-4e9d-8359-25fc3ddba06c.png" />
+    <EmbeddedResource Include="Images\speakers\3a69a546-01bf-46cd-abc7-7e1783243989.png" />
+    <EmbeddedResource Include="Images\speakers\414e54fa-21e8-46bb-9e74-64ed50df3515.png" />
+    <EmbeddedResource Include="Images\speakers\44f89bfa-91eb-44a3-af9f-df89aabec777.png" />
+    <EmbeddedResource Include="Images\speakers\4625c894-f72b-4fb1-8ec1-eac74a2830da.png" />
+    <EmbeddedResource Include="Images\speakers\491f86b0-f230-4f08-866e-113c9fbe1db9.png" />
+    <EmbeddedResource Include="Images\speakers\4b76fb76-e9ad-47fb-8734-ecb1a024e514.png" />
+    <EmbeddedResource Include="Images\speakers\4be6428e-b5a6-4c1a-9d7b-1deaef166231.png" />
+    <EmbeddedResource Include="Images\speakers\4d13f8ab-71ea-4a37-bb05-9efb433314dc.png" />
+    <EmbeddedResource Include="Images\speakers\4d5d1f66-ae9a-43e8-9b66-681abd74e644.png" />
+    <EmbeddedResource Include="Images\speakers\52e03c41-3696-4c76-b164-b5ea3d4fa77e.png" />
+    <EmbeddedResource Include="Images\speakers\54bbef47-705f-4bad-84e9-aa3e7ca8a573.png" />
+    <EmbeddedResource Include="Images\speakers\54e4668a-61e4-4f65-b886-5caff83a77ee.png" />
+    <EmbeddedResource Include="Images\speakers\55343c70-a5af-4999-9e5b-ec397a0afba3.png" />
+    <EmbeddedResource Include="Images\speakers\5ddc7891-37ee-4bc8-9882-4c2750aa5eb4.png" />
+    <EmbeddedResource Include="Images\speakers\610fc361-836b-4c31-b7a3-ed696b411286.png" />
+    <EmbeddedResource Include="Images\speakers\637c43c5-78e5-4aaf-9136-264fa1b60664.png" />
+    <EmbeddedResource Include="Images\speakers\6cf9dded-1d72-4fba-96b7-6a7c62093521.png" />
+    <EmbeddedResource Include="Images\speakers\6fc08379-91c4-4a62-9d60-d938f3779f2a.png" />
+    <EmbeddedResource Include="Images\speakers\7663e802-28b0-429b-9a76-142c629ef69a.png" />
+    <EmbeddedResource Include="Images\speakers\79b071bb-3390-44f1-8073-41cb00894fd6.png" />
+    <EmbeddedResource Include="Images\speakers\7c91f1e6-0b7e-4e9d-b352-6bde1ff3a246.png" />
+    <EmbeddedResource Include="Images\speakers\7f2d56a3-5603-430e-bc59-11b3d752e517.png" />
+    <EmbeddedResource Include="Images\speakers\810d9797-a6a0-42dd-8b7c-aadad5b9c940.png" />
+    <EmbeddedResource Include="Images\speakers\83acdbed-ac85-43e7-8d15-1a311fa416f3.png" />
+    <EmbeddedResource Include="Images\speakers\88fdbb23-6d23-462b-ae96-9b2b71f339db.png" />
+    <EmbeddedResource Include="Images\speakers\8b87ca59-4b88-4525-a296-0c1571ed04d1.png" />
+    <EmbeddedResource Include="Images\speakers\8c6185b1-aca7-428f-a65d-fac4961fa3d9.png" />
+    <EmbeddedResource Include="Images\speakers\8ff234d0-4458-460b-a063-3082975b5824.png" />
+    <EmbeddedResource Include="Images\speakers\90e7f371-2af8-4d65-ba7f-56e285592ba0.png" />
+    <EmbeddedResource Include="Images\speakers\9241e1bf-126e-49ce-a50f-fcf088af9a36.png" />
+    <EmbeddedResource Include="Images\speakers\929caeba-eae6-4ed2-86ec-0e58d66f7f22.png" />
+    <EmbeddedResource Include="Images\speakers\92c23f11-5524-4af4-a4ea-eda4c48aef11.png" />
+    <EmbeddedResource Include="Images\speakers\92fd9728-7e3d-44a8-8f7b-d75881d71841.png" />
+    <EmbeddedResource Include="Images\speakers\961d1846-b6b7-4dd3-995f-12394f7d84e0.png" />
+    <EmbeddedResource Include="Images\speakers\97489ec8-802b-445c-8774-ad27645af450.png" />
+    <EmbeddedResource Include="Images\speakers\9a148bbf-a19f-440e-ba64-1ba1f51c05f1.png" />
+    <EmbeddedResource Include="Images\speakers\9b2e0561-f66b-4889-b66d-b8d48e67c3be.png" />
+    <EmbeddedResource Include="Images\speakers\9b916326-85ac-4f26-9482-9f10637303e0.png" />
+    <EmbeddedResource Include="Images\speakers\9c4804ca-412e-41ab-8823-869174b73be3.png" />
+    <EmbeddedResource Include="Images\speakers\9ed35bf1-aeeb-420d-9cf8-e76ebbc81955.png" />
+    <EmbeddedResource Include="Images\speakers\9f0683eb-83a1-4f18-aa24-b18610fa82ac.png" />
+    <EmbeddedResource Include="Images\speakers\a3255872-0515-4ecd-af03-250ef7ff6947.png" />
+    <EmbeddedResource Include="Images\speakers\a51d236d-64a0-4903-ba2e-6add8984f97d.png" />
+    <EmbeddedResource Include="Images\speakers\a913d904-07a0-421f-8107-365ea4df0d82.png" />
+    <EmbeddedResource Include="Images\speakers\a92bf506-23fb-48fd-8968-08c6c3416385.png" />
+    <EmbeddedResource Include="Images\speakers\aa1fdc85-c1cb-414c-a136-2a0f0dfd3bc7.png" />
+    <EmbeddedResource Include="Images\speakers\abb8df8d-c778-4d4d-92db-f2523220b906.png" />
+    <EmbeddedResource Include="Images\speakers\af91a71e-c642-4894-b8cb-9ea77ba5a3fb.png" />
+    <EmbeddedResource Include="Images\speakers\b033e639-9176-4de8-b021-3c894aadab44.png" />
+    <EmbeddedResource Include="Images\speakers\b0de79e6-6d7c-49cd-b5d6-f156174addd1.png" />
+    <EmbeddedResource Include="Images\speakers\b140397f-1e38-4019-b089-5fcb9433ff38.png" />
+    <EmbeddedResource Include="Images\speakers\b34f203b-0d5d-4162-b477-0b2f29cd3451.png" />
+    <EmbeddedResource Include="Images\speakers\b73c9d12-0c7e-4672-8b44-7e20e744551d.png" />
+    <EmbeddedResource Include="Images\speakers\b8170d0a-e909-411a-9676-a0ca32a87120.png" />
+    <EmbeddedResource Include="Images\speakers\bc8190bc-59e4-428f-a25e-872b84a9bf47.png" />
+    <EmbeddedResource Include="Images\speakers\bfea6463-1440-4240-a2d9-cc169007a222.png" />
+    <EmbeddedResource Include="Images\speakers\c5579cb7-1ab8-4a4e-9342-2bd44bd4a66b.png" />
+    <EmbeddedResource Include="Images\speakers\c5addcc3-ab5e-47db-aa42-2dba8c1a136b.png" />
+    <EmbeddedResource Include="Images\speakers\c63b8396-8258-4cf3-b7ab-c5f122cf2153.png" />
+    <EmbeddedResource Include="Images\speakers\c75a3c2e-431d-48cc-9046-1afdc2c9c62f.png" />
+    <EmbeddedResource Include="Images\speakers\c7bd59aa-1053-4489-84b0-5ae750fdce0d.png" />
+    <EmbeddedResource Include="Images\speakers\c97036f3-dc68-4b9b-ac2a-66e1a254dfac.png" />
+    <EmbeddedResource Include="Images\speakers\c9f9172d-6f14-4f4b-bd2f-94f48a0b8a9b.png" />
+    <EmbeddedResource Include="Images\speakers\cdf95dca-3eed-430e-9825-0d92bc6ab44a.png" />
+    <EmbeddedResource Include="Images\speakers\cf2a3617-cc8a-4528-8404-fd5bb1c9c66e.png" />
+    <EmbeddedResource Include="Images\speakers\d227d7d6-f336-4d49-99ab-d18b53fe6cca.png" />
+    <EmbeddedResource Include="Images\speakers\d6b7f781-a0e0-44b5-94cb-35878c15f09e.png" />
+    <EmbeddedResource Include="Images\speakers\d850466c-9962-465f-a2d0-c2da942f8121.png" />
+    <EmbeddedResource Include="Images\speakers\dcea79d7-db9b-4eb7-977a-92b1fc548501.png" />
+    <EmbeddedResource Include="Images\speakers\df751ded-61b1-48bd-a0f8-cc14b9a50ee2.png" />
+    <EmbeddedResource Include="Images\speakers\df832762-2b03-48f3-9675-fe7a1b8ec8a8.png" />
+    <EmbeddedResource Include="Images\speakers\dff3da0a-8aba-4e94-826a-ee4785bc420c.png" />
+    <EmbeddedResource Include="Images\speakers\e5158710-e6cc-40c3-a747-e04bc12a38a4.png" />
+    <EmbeddedResource Include="Images\speakers\e6eea02b-bea1-4727-aadc-d5ba658e1d0c.png" />
+    <EmbeddedResource Include="Images\speakers\e8d874f8-8068-4dbe-a010-661ae1c170dd.png" />
+    <EmbeddedResource Include="Images\speakers\e9fed160-cada-4c2e-9252-e41a2d896a41.png" />
+    <EmbeddedResource Include="Images\speakers\f0b88ae3-ef5c-4752-8d45-22a05b220338.png" />
+    <EmbeddedResource Include="Images\speakers\f4a206ec-2537-4798-ba3d-b3ec90013287.png" />
+    <EmbeddedResource Include="Images\speakers\faecd774-287a-449b-bb26-f4573a53b43f.png" />
+    <EmbeddedResource Include="Images\speakers\fc765901-1bfc-47ba-b59b-86180f4acc11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\missingprofile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="02858a4b-89e5-483e-befa-9d603d455542.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

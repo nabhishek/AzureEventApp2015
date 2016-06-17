@@ -1,0 +1,326 @@
+[
+  {
+    "id": "729f5daf-16b0-4ed3-851c-83e4f576c3be",
+    "speakers": [
+      {
+        "id": "747538a4-e32c-4b2f-a5c8-1e9d23bfc5f3",
+        "name": "Ujjwal Kumar",
+        "twitterHandle": "@ujjwalkr",
+        "bio": "Ujjwal Kumar is a Senior Technical Evangelist for Microsoft Azure, IoT and Windows Platform with Microsoft Developer Experience & Evangelism (DX) Group in Singapore. He focuses on Microsoft Azure, IoT, apps and game development. Prior to his current role he worked as a Partner Consultant and Development Platforms Worldwide Specialization Lead. He has more than 13 years of industry experience, out of which over 9 years has been with Microsoft. He has extensively worked on C++, C#, Microsoft Azure, Windows Internals, Robotics Studio and game development. In his current role, he assists partner organizations, startups and enterprises to adopt latest technology platforms. He is an avid technologist, a prominent speaker and the co-founder of the IoT community and India Gamers Community.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/UjjwalKumar.jpg",
+        "photo": "",
+        "tagline": "Senior Technical Evangelist, Microsoft Singapore"
+      }
+    ],
+    "title": "Azure Machine Learning & Cortana Intelligence",
+    "Abstract": "In this session, we will connect the dots from Azure Machine learning to cloud APIs and build intelligent apps.",
+    "begins": "2016-05-27T12:45:00",
+    "ends": "2016-05-27T13:45:00",
+    "location": "Singapore",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "Students & Developers Track"
+  },
+  {
+    "id": "06861c79-df2f-416a-b1e6-05deca9676ea",
+    "speakers": [
+      {
+        "id": "2a998720-7121-42f0-8505-c0b907d3134a",
+        "name": "Chun Siong Tan",
+        "twitterHandle": "@tanchunsiong",
+        "bio": "Chun Siong is the program owner of the Microsoft Student Ambassador Program. Prior to joining Microsoft, he represented Singapore in the Imagine Cup worldwide finals in 2009. Chun Siong runs the yearly Imagine Cup competition, providing mentorship and guidance to participants on solving the world toughest problems using technology. He is a currently Technical Evangelist in Microsoft Singapore.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/ChunSiong.jpg",
+        "photo": "",
+        "tagline": "Technical Evangelist, Microsoft Singapore"
+      }
+    ],
+    "title": "Getting started with Windows 10 IOT",
+    "Abstract": "With the introduction of Windows 10 UWP (Universal Windows Platform), developers can now target small form devices from Raspberry Pi 2, Windows Mobile, HoloLens, to Windows Tablet and Surface Hub. Join us to learn about the fundamentals on development of Windows UWP on Windows 10 IoT Core, and the possibilities of projects and more.",
+    "begins": "2016-05-27T13:45:00",
+    "ends": "2016-05-27T14:45:00",
+    "location": "Singapore",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "Students & Developers Track"
+  },
+  {
+    "id": "66b03614-3355-4a37-89b9-ede854b64ee6",
+    "speakers": [
+      {
+        "id": "19aae351-66be-4077-9378-4d2460ab1831",
+        "name": "Louis Leong",
+        "twitterHandle": "@louisleongwy",
+        "bio": "Louis is a Technical Evangelist with Microsoft working with teams to drive DevOps adoption, agile practices and  development best practices with Visual Studio and Team Services. He has a deep passion for software engineering and has been involved in building enterprise scale applications over the years.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/LouisLeong.jpg",
+        "photo": "",
+        "tagline": "TSP, Microsoft Singapore"
+      }
+    ],
+    "title": "Building cross platform iOS/Android apps with Visual Studio, Xamarin and C#.",
+    "Abstract": "Learn how to leverage your C# skills using Visual Studio and Xamarin to build cross platform apps that runs natively on iOS, Android, and Windows platform.",
+    "begins": "2016-05-27T15:00:00",
+    "ends": "2016-05-27T16:00:00",
+    "location": "Singapore",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "Students & Developers Track"
+  },
+  {
+    "id": "cbabd723-ffee-4253-8f5f-14d76a930b09",
+    "speakers": [
+      {
+        "id": "9ce64356-4be3-48db-836e-a43ed8a28593",
+        "name": "Anand Mohana Sasidharan",
+        "twitterHandle": "@tweetmsanand",
+        "bio": "As a Cloud Solution Architect with Microsoft, Anand's current role involves enabling partners & customers to envision, design and deploy the right Microsoft Azure solutions to meet their exact needs. Apart from Microsoft Azure, his areas of expertise include Directory Services, Virtualization, Private and Hybrid clouds. With a wide range of technological experience over 19 years in the industry, he has been assisting partners & customers in rapidly finding solutions to their technology challenges.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/MSAnand.JPG",
+        "photo": "",
+        "tagline": "Cloud Solution Architect, Microsoft Singapore"
+      }
+    ],
+    "title": "Architecting solutions with Azure IaaS",
+    "Abstract": "Planning is vital to a successful deployment of your solution to Azure IaaS. Deploying your solution to Azure IaaS requires a good understanding of the various Azure infrastructure components including but not limited to compute, networking, storage, high availability, security & monitoring. Attend this session to get an understanding of some of the implementation best practices when planning for deploying your solution on Azure IaaS.",
+    "begins": "2016-05-27T15:00:00",
+    "ends": "2016-05-27T16:00:00",
+    "location": "Singapore",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Developers & IT Professionals Track"
+  },
+  {
+    "id": "9fc0b8b3-9956-450f-8a1b-c0d05eed01ee",
+    "speakers": [
+      {
+        "id": "d89ebfbc-3d9a-4ec1-b412-1e93279cec37",
+        "name": "Pradeep Menon",
+        "twitterHandle": "@rpradeepmenon",
+        "bio": "Pradeep Menon is an experienced Data Science professional with 13+ years of cross experience in Business Analytics. He works as a Data Solution Architect (DSA) with Microsoft. As a DSA where he is responsible for helping customer adopt Azure’s Big Data Platform (HDInisight, SQL Data Warehouse, Machine Learning, Steam Analytics and Azure SQL Server).",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/PradeepMenon.jpg",
+        "photo": "",
+        "tagline": "Solution Architect, Microsoft Singapore"
+      }
+    ],
+    "title": "Big Data on Azure",
+    "Abstract": "In this session, we will talk about Big Data Architecture patterns (Lambda and Data Lake) and how these patterns are enabling enterprises to integrate and leverage on their existing Data Warehouses investments. We will also demonstrate how various Azure components fits into these Architectural patterns.",
+    "begins": "2016-05-27T13:45:00",
+    "ends": "2016-05-27T14:45:00",
+    "location": "Singapore",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Developers & IT Professionals Track"
+  },
+  {
+    "id": "9a8d76d0-a7a3-4fde-a637-d89d6a371fb3",
+    "speakers": [
+      {
+        "id": "a035a180-0ff6-43e9-9d50-e3ff1e3dcd61",
+        "name": "Wely Lau",
+        "twitterHandle": "@wely_live",
+        "bio": "Wely is developer, architect, trainer, consultant, technical writer, and technology lover. He currently works as Technology Specialist on Azure ModernApps (Web, Mobile, and Media Workloads) for Microsoft Asia Pacific. In spare time, he writes blog, delivers presentation, and participates in online community.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/WelyLau.jpg",
+        "photo": "",
+        "tagline": "Technical Solutions Professional, Microsoft Singapore"
+      }
+    ],
+    "title": "Azure App Services",
+    "Abstract": "Azure App Service is a one-of-a kind cloud service that enables you to seamlessly integrate everything from mobile and web development with your back-end systems in a radically simpler way that allows you to deliver amazing apps significantly faster than you can today –so you can stop worrying about the infrastructure and dealing with fragmented tools and instead focus on what you do best: build great apps.",
+    "begins": "2016-05-27T12:45:00",
+    "ends": "2016-05-27T13:45:00",
+    "location": "Singapore",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Developers & IT Professionals Track"
+  },
+  {
+    "id": "fed09aae-09d9-4152-ac35-4289c6ceb408",
+    "speakers": [
+      {
+        "id": "9fc9e73b-c22e-400e-98a7-d7b931a64dfe",
+        "name": "Saranya Sriram",
+        "twitterHandle": "@sharan779",
+        "bio": "Saranya works as the Asia Azure technical Lead and works deeply with a handful of Partners on Azure to drive individuals within Partners to achieve technical excellence and to improve the overall Azure technical competency of Partners in ASIA to positively impact the project deployments & consumption of Azure in ASIA. Saranya aligns with Partners in Australia, China, HK, India, Japan, Singapore and Taiwan. She drives community/breadth technical enablement across Partners in ASIA through 1:many online technical events with content she has developed and refined. In her previous role as a Technical Evangelist in DX AHQ APAC and DX India she was responsible for spear heading Microsoft Azure evangelism since its inception in PDC2008 to various transformations on the Azure platform to where we see Azure as an enterprise ready platform today. Saranya has an eclectic mix of deep technical knowledge that has earned herself as a brand ambassador for Microsoft Azure within Microsoft / external communities. She is a regular speaker (Asia events like keynote speaker for Build Tour in Singapore) in a variety of 3rd party cloud events and conferences. Saranya is also a six sigma certified green belt. Saranya joined Microsoft India in 2005 initially as an developer. Saranya moved into external facing role as an developer evangelist in India in September 2008 and later into Microsoft Singapore in 2013. Saranya holds a Master’s of Science in Physics and Bachelors of Engineering in Computer Science from BITS Pilani in India. She has spent a year at Insead Business School in Fontainebleau as part of her college exchange program.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/Saranya.jpg",
+        "photo": "",
+        "tagline": "Partner Practice Recruiter, Azure, Microsoft Singapore"
+      }
+    ],
+    "title": "Azure Container Services",
+    "Abstract": "Container Management services is upcoming and a disruptive deployment and hosting option by many customers and partners today. Azure has a general availability of its service – Azure container services (ACS). Join this session to understand the differences in building applications for VMs, Containers, Azure App Services and Service fabric and focus on ACS for demo filled examples.",
+    "begins": "2016-05-27T12:45:00",
+    "ends": "2016-05-27T13:45:00",
+    "location": "Singapore",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "ISVs & Startups Track"
+  },
+  {
+    "id": "786b9d3e-e2e5-4e04-b7b0-0ecaba6f512c",
+    "speakers": [
+      {
+        "id": "60858337-3c86-4fe8-a697-aac592816fba",
+        "name": "Riza Marhaban",
+        "twitterHandle": "@rizamarhaban",
+        "bio": "Riza is a long time developer and software architect. He currently manages communities such as the .NET Developers Community and Azure Community in Singapore as well. He is a speaker and a trainer. His motto is - I'm just a simple developer.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/RizaMarhaban.png",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft Singapore"
+      }
+    ],
+    "title": "Cognitive APIs and Microsoft Bot Framework",
+    "Abstract": "Microsoft Cognitive Service is a suite of APIs that developers can use to build applications powered by algorithms that can perform computer vision, speech recognition, text analytics, recommendations, and other cognitive tasks. Previously named as Project Oxford, the current Microsoft Cognitive Services has added new capabilities such as Emotion, Language Understanding and Bing Search to many of the existing APIs. Microsoft Bot Framework consists of a Bot Connector, Bot Builder SDKs, and a Bot Directory. The framework allows developers to build and connect intelligent bots that can interact with application users. Interactions can take place via text/SMS, Office 365 mail, and other services.",
+    "begins": "2016-05-27T13:45:00",
+    "ends": "2016-05-27T14:45:00",
+    "location": "Singapore",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "ISVs & Startups Track"
+  },
+  {
+    "id": "ed5e4d10-cc32-4276-9b71-f686d7a072fe",
+    "speakers": [
+      {
+        "id": "da51cd7c-415c-46a0-9d4e-bd71f44dfe46",
+        "name": "Andrey Terekhov",
+        "twitterHandle": "@ddtru",
+        "bio": "Andrey Terekhov is an Open Source Sales & Marketing Lead at Microsoft Asia Pacific HQ, based in Singapore. In this role he is responsible for defining Microsoft’s open source strategy and developing business in Asia Pacific region, with particular focus on scaling up open source workloads on Microsoft Azure cloud platform. Andrey is a 12-years veteran of Microsoft, having worked in different roles in Russia, Ukraine and Germany. Prior to Microsoft, Andrey worked in a Russian software company where he rose through the ranks from software developer to Chief Operation Officer. Andrey holds a PhD in Computer Science.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/AndreyTerekhov.jpg",
+        "photo": "",
+        "tagline": "Senior Product Marketing Manager, APAC, Microsoft Singapore"
+      }
+    ],
+    "title": "Linux on Azure with OSS.",
+    "Abstract": "In this session we will show that Linux and other Open Source Solutions are first-class citizens on Microsoft Azure. You will learn how to build IaaS solutions at hyper scale for your Linux computing needs. We will talk about Microsoft partnership with Red Hat and walk through the process of configuring, deploying and running Linux VMs on Azure.",
+    "begins": "2016-05-27T15:00:00",
+    "ends": "2016-05-27T16:00:00",
+    "location": "Singapore",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "ISVs & Startups Track"
+  },
+  {
+    "id": "d0c45c35-1cb6-466f-8b90-fcda4b390741",
+    "speakers": [
+      {
+        "id": "FF55FB19-0262-4EB6-B383-B54696AF320A",
+        "name": "Satya Nadella",
+        "twitterHandle": "",
+        "bio": "Satya Nadella is Chief Executive Officer of Microsoft. Before being named CEO on February 4, 2014, Nadella held leadership roles in both enterprise and consumer businesses across the company.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/SatyaNadella.jpg",
+        "photo": "",
+        "tagline": "Chief Executive Officer, Microsoft"
+      }
+    ],
+    "title": "Keynote",
+    "Abstract": "",
+    "begins": "2016-05-27T10:00:00",
+    "ends": "2016-05-27T10:30:00",
+    "location": "Singapore",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  },
+  {
+    "id": "13861537-dc45-45c3-b482-f308ad12d519",
+    "speakers": [
+      {
+        "id": "197f52f6-15c9-43d8-aa76-0fefb954e70d",
+        "name": "John Shewchuk",
+        "twitterHandle": "@JohnShew",
+        "bio": "John Shewchuk is a Technical Fellow who leads the DX engineering and technical evangelism team at Microsoft.  John has been with Microsoft for nearly 20 years and has worked on all kinds of fun projects including – driving the first release of Visual Studio, building Azure Active Directory and the Microsoft graph, streaming the Olympics with NBC, and solving challenges for cloud healthcare solutions with GE.  John hosts the DECODED show which takes viewers around the globe and shares modern developer best practices.   John is an advocate and contributor to open source and Web standards – most recently involved with offline data modules for Angular and the OAuth 2 standards. He lives in Redmond with his wife and four children.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/JohnShewchuk.jpg",
+        "photo": "",
+        "tagline": "Technical Fellow, Microsoft"
+      }
+    ],
+    "title": "Tackling the Growing Complexity in Software Development",
+    "Abstract": "Companies and developers see an accelerating pallet of new software technologies: cloud computing; high-scale data streaming, analytics, and visualization; mobile and device integration; AR/VR, machine learning; natural language; and bots. All technologies that offer the potential to significantly improve the capabilities of software we create and use.  But to make effective use of these advances, including integrating these technologies with existing systems and maintaining and evolving the result is a challenging proposition, especially as our system become more complex.  In this talk we look at these trends and discuss ways organizations and developers can tackle this growing complex and deliver better, more capable software.",
+    "begins": "2016-05-27T10:30:00",
+    "ends": "2016-05-27T11:00:00",
+    "location": "Singapore",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  },
+  {
+    "id": "44CAC410-C2F5-4779-9340-7B67409774DB",
+    "speakers": [
+      {
+        "id": "105B329A-6A98-43F6-BF07-2BEE4620FA3D",
+        "name": "Graham Williams",
+        "twitterHandle": "",
+        "bio": "Graham Williams is Microsoft's Director of Data Science for the Asia and Pacific region. He recently joined Microsoft bringing with him over 30 years of research and deployment in Artificial Intelligence, Machine Learning, Data Mining, Analytics and Data Science. Graham has authored a number of books introducing Data Mining and Machine Learning using the R Statistical Open Source Software. Until recently he was principal data scientist with the Australian Taxation Office and was the lead data scientist with the Australian Government's Center of Excellence in Analytics. Through these roles he assisted government departments in building their Data Science capabilities and worked on projects that focused on delivering cost effective data science solutions using open source platforms.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/GrahamWilliams.jpg",
+        "photo": "",
+        "tagline": "Director of Data Science, Cloud and Enterprise, Microsoft Singapore"
+      },
+      {
+        "id": "71BB3D60-7C66-4339-8042-3244E7A8C61D",
+        "name": "Fang Zhou",
+        "twitterHandle": "",
+        "bio": "Fang Zhou is a data scientist at Microsoft’s IMML Algorithms & Data Science team. She holds a Ph.D. degree in Statistics from National University of Singapore and has domain knowledge and experiences in marketing analysis, risk & finance, and healthcare. In Microsoft, she is responsible for building advanced analytics/machine learning powered intelligent web-services and end-to-end solutions for customers in diverse verticals. Until now, she has worked on projects, like customer relationship management, sales forecast, manufacture process control, predictive maintenance, etc.  Fang Zhou is keen to bring the combination of her education, technique skills, and industry experiences into various data science works and open to new fields and innovations.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/FangZhou.jpg",
+        "photo": "",
+        "tagline": "Data Scientist, Cloud and Enterprise, Microsoft Singapore"
+      }
+    ],
+    "title": "Machine Learning and Data Science: Data Into Intelligent Action.",
+    "Abstract": "Data Scientists live and breathe data. We choose the best tools for that task from a vast array of ever changing tools. We turn data into information, information into discovered knowledge, and through wisdom the discovered knowledge is turned into intelligent action. Our tool suites include many open source software products. In this presentation we will review the foundations for today's Data Scientist's skill set, introducing the concepts behind machine learning, data mining, analytics and data science and the open source tool suite that has served us well over the past two decades. We will demonstrate today’s Data Scientist's platform for bringing together data, tools, and visualisations, offering a managed end-to-end solution for production delivery. A key component is the incorporation of the most widely used data science toolkits available today: the open source R Statistical Software Package. We show how we can now share the power of R through the Cortana Intelligence Suite encompassing SQL Server 2016 R Services and Azure Machine Learning to empower developers to build and customise tomorrow’s intelligent applications today.",
+    "begins": "2016-05-27T11:00:00",
+    "ends": "2016-05-27T11:30:00",
+    "location": "Singapore",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  },
+  {
+    "id": "afdb8868-0e9f-4562-af58-512869c34080",
+    "speakers": [
+      {
+        "id": "4F9161D3-6BFA-436D-876E-957E39F1DF58",
+        "name": "Dave Miller",
+        "twitterHandle": "",
+        "bio": "Mr Miller joins Microsoft Asia Pacific after eight successful years in the U.S, at the company’s global headquarters, where was involved in various marketing and corporate communications leadership roles. He most recently led the DX Windows Apps team to help drive commercial and consumer Independent Software Vendor (ISV) adoption of Windows 10.",
+        "headshotUrl": "https://sgdevdaystorage.blob.core.windows.net/sgspeakers/DaveMiller.jpg",
+        "photo": "",
+        "tagline": "Senior Director, Developer Experience and Evangelism, APAC AHQ, Microsoft Singapore"
+      }
+    ],
+    "title": "Closing Remarks",
+    "Abstract": "",
+    "begins": "2016-05-27T17:30:00",
+    "ends": "2016-05-27T18:00:00",
+    "location": "Singapore",
+    "Trackid": "cb662cd2-e174-453e-afd8-442e0e76a765",
+    "TrackName": "Closing Note"
+  },
+  {
+    "id": "075c1ed6-4fd3-4ee1-8d46-4a716be94c04",
+    "speakers": [
+      {
+        "id": "C2F65650-4E08-4058-8DB1-1AA260BDC933",
+        "name": "Multiple Speakers",
+        "twitterHandle": "",
+        "bio": "",
+        "headshotUrl": "",
+        "photo": "",
+        "tagline": ""
+      }
+    ],
+    "title": "Solutions showcase",
+    "Abstract": "",
+    "begins": "2016-05-27T16:30:00",
+    "ends": "2016-05-27T17:30:00",
+    "location": "Singapore",
+    "Trackid": "cb662cd2-e174-453e-afd8-442e0e76a765",
+    "TrackName": "Closing Note"
+  },
+  {
+    "id": "81e31ede-ffe6-4f26-a6ea-e0d39ac0620e",
+    "speakers": [
+      {
+        "id": "FF55FB19-0262-4EB6-B383-B54BF6AF380A",
+        "name": "Multiple Speakers",
+        "twitterHandle": "",
+        "bio": "",
+        "headshotUrl": "",
+        "photo": "",
+        "tagline": ""
+      }
+    ],
+    "title": "Technical Demos",
+    "Abstract": "",
+    "begins": "2016-05-27T09:30:00",
+    "ends": "2016-05-27T10:00:00",
+    "location": "Singapore",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  }
+]

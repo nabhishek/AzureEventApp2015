@@ -1,0 +1,1415 @@
+[
+  {
+    "id": "06861c79-df2f-416a-b1e6-05deca9676ea",
+    "speakers": [
+      {
+        "id": "19aae351-66be-4077-9378-4d2460ab1831",
+        "name": "Madhan Arumugam Ramakrishnan",
+        "twitterHandle": "@madhanwa",
+        "bio": "Madhan Arumugam Ramakrishnan is a Principal Manager of Program Management in Microsoft Azure. His team is responsible for the service management API of Azure Compute with a focus on PaaS Compute workloads, in-VM customization and DevOps scenarios with a focus on Linux/OSS support in Azure. He has also served as the Principal Lead Program Manager responsible for SQL Server Cloud offerings (IaaS, hybrid and PaaS) and specialized in mission critical database solutions. He has also served as a senior software engineer at Intel Corporation and developed cache coherency protocol models for multicore processor systems.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/madhan.jpg",
+        "photo": "",
+        "tagline": "Principal Program Manager, Microsoft"
+      }
+    ],
+    "title": "Building high performance solutions using Premium Storage",
+    "Abstract": "Are you using Azure IaaS and are interested in the latest features that it has to offer, such as Premium Storage and G Series? Are you looking for the best practices on how to get the most of Azure IaaS? Do you want to learn how the biggest customers of Azure are using Azure IaaS? In this session we will review the leading features in Azure IaaS, common application patterns and solutions including partner offerings in Azure Marketplace.",
+    "begins": "2015-03-18T11:00:00",
+    "ends": "2015-03-18T11:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "355cc7e2-5785-4652-92e7-1f76133cf8b4",
+    "speakers": [
+      {
+        "id": "c764c7df-b999-412a-a3df-8277a467ca6a",
+        "name": "Pracheta Budhwar",
+        "twitterHandle": "@prachetab",
+        "bio": "Pracheta has been in the IT industry for more than 11 years. Currently, she works as a Technology Evangelist at Microsoft India. She leads the IT professional evangelism charter for the subsidiary. With a rich background of giving technology and architecture guidance to enterprise customers, Pracheta has worked on Windows Server family starting with NT, Exchange Server, System Center, Lync Server to latest developments like Virtualization, Private Cloud & Microsoft Azure. In her brilliant career she has held a number of roles like infrastructure management, pre-sales & consulting. She is a regular speaker at Microsoft events and other industry tech summits. Pracheta blogs at http://blogs.technet.com/pracheta",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/pracheta.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      },
+      {
+        "id": "7433a43d-505b-40d3-9f46-5240360799b3",
+        "name": "Rohit Gulati",
+        "twitterHandle": "@rohitgulati82",
+        "bio": "Rohit is an Infrastructure Architect with Microsoft Consulting Services. He has more than 11 years of experience in architecture, building and delivering Infrastructure solutions on Microsoft Virtualization, Private Cloud, Microsoft Azure, O365, Unified Communications, System Center and Technology Strategy consulting. He is a regular speaker at MS TechEd India since 2009. He has also featured in other Microsoft internal and external events.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/rohit.jpg",
+        "photo": "",
+        "tagline": "Architect, Microsoft India"
+      }
+    ],
+    "title": "Migrate VMs to Azure: Best practices on Deployment & Operations",
+    "Abstract": "In this session, get a detailed perspective on how to plan and migrate to on-premises VMs to Azure. Get and overview of the do's and don'ts, best practices from the field and much more. Also, get a sneak peek into a related Service called Operational Insights, which helps in providing holistic insights into your data center operations running on MS workloads.",
+    "begins": "2015-03-18T12:00:00",
+    "ends": "2015-03-18T12:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "fbe41dc3-8a27-4f42-a4de-6b2e0f60da22",
+    "speakers": [
+      {
+        "id": "7c453245-38d6-429c-b366-2ad957f0dc2b",
+        "name": "Anirudha Singh Rautela",
+        "twitterHandle": "",
+        "bio": "Anirudha is a Sr. Product Marketing Manager for Management and Identity and Access businesses in the Server and Cloud Business Group. He holds a Master's degree in Computer Applications with nearly thirteen years' experience in the field of information security and for the last one and a half years, he is driving the Modern Datacenter business for Microsoft in India. Additionally, Anirudha also runs the Security & Privacy Initiative to keep our customers and partners protected and secure at all times. His experience spans designing Layered Security Architectures for large enterprises, vulnerability assessments, device risk assessment, and application security testing. He has steered information security policies and procedures, conducted BS 7799 audits and formalised Business Continuity Plan for various organisations. Combining his security knowledge with that of the requirements of Modern Datacenters, Anirudha is able to drive in-depth conversations around end to end customer requirements. Anirudha has also represented Microsoft at various external events and a key speaker.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/anirudha.jpg",
+        "photo": "",
+        "tagline": "Sr. Product Marketing Manager, Microsoft India"
+      },
+      {
+        "id": "303a78b4-88d8-4e4e-8c31-18b731aec39f",
+        "name": "MS Anand",
+        "twitterHandle": "@tweetmsanand",
+        "bio": "As a Cloud Solution Architect with Microsoft, Anand enables partners & customers to envision and design the right Microsoft Azure solutions to meet their exact needs. Apart from Microsoft Azure, his areas of expertise include Directory Services, Virtualization, Private and Hybrid Clouds. With a wide range of technological experience over his 18 years in the industry, Anand has been assisting partners & customers in rapidly finding solutions to their technology challenges. He is a familiar face at various Microsoft events and is a Microsoft Certified Solution Expert (MCSE) on Server Infrastructure & Private Cloud and a Microsoft Specialist on Azure.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/ms.jpg",
+        "photo": "",
+        "tagline": "Cloud Solutions Architect, Microsoft"
+      }
+    ],
+    "title": "Empowering Enterprise Mobility",
+    "Abstract": "Microsoft's solution for enabling Enterprise Mobility is built on a foundation that builds on existing investments and reduces complexity for the user and IT; based on four components that provide a complete solution for managing the challenges on enterprise mobility - Hybrid Intensity, Mobile Device and Application Management, Access & Information Protection and Desktop Virtualization. Attend this session to see how these components put together can help build a compelling Enterprise Mobility Strategy for your organization.",
+    "begins": "2015-03-18T14:00:00",
+    "ends": "2015-03-18T14:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "b0e0fc33-2ba6-43eb-974e-8daca6def4a4",
+    "speakers": [
+      {
+        "id": "4ce31e5c-9bbe-4001-818c-8d7b649c4aa5",
+        "name": "Shweta Gupta",
+        "twitterHandle": "@Shwetastweets",
+        "bio": "Shweta is a senior program manager in Microsoft, who specializes on Azure. Her expertise lies in enabling, building and migration of big data workloads onto Azure, focusing on re-architecting for short term as well as long term. With over nine years of work experience in various Microsoft technologies, Shweta is now associated with Azure since the last three years. Shweta has a computer applications background with an MBA in Finance. In the past she has written papers and spoken at several international conferences on application of information technology in the financial reporting domain.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sweta.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, TED Team, Microsoft India"
+      },
+      {
+        "id": "2B6DB560-8AA6-4072-94AF-30652963B9E8",
+        "name": "Mohammed Nasiruddin",
+        "twitterHandle": "@mnoncloud",
+        "bio": "Mohammad has been one of the first few advocates of Azure since its inception and has been an evangelist for Microsoft technologies for over 15 years. At Microsoft, he is responsible for evangelizing Azure and assisting partners and customers in adopting Azure. He has also been instrumental in architecting, designing, developing and testing a large number of apps on Azure. As part of his role, he works on deploying a wide range of Open Source Technologies on Azure including Java, PHP, Drupal, MySQL, Mongo DB, Hadoop, etc.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/mohammed.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, Microsoft"
+      }
+    ],
+    "title": "Automating Linux & Windows IaaS deployments & customization through Python & Powershell",
+    "Abstract": "Learn about creating Linux & Windows VMs through Python scripts & customizing the VMs through VM extension. In this session, we will create three VMs (Linux) and use Linux Custom VM Extension & Windows Custom VM extensions to install MySQL Percona Cluster. We will also demo the same using powershell scripts & show it run both locally & using Azure automation.",
+    "begins": "2015-03-18T15:00:00",
+    "ends": "2015-03-18T15:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "44CAC410-C2F5-4779-9340-7B67409774DB",
+    "speakers": [
+      {
+        "id": "97780461-856F-4990-9BE7-7239E062C7C1",
+        "name": "Jay Swaminathan",
+        "twitterHandle": "@jaysrambling",
+        "bio": "Jay works at Microsoft as a Technology Specialist on Azure Platform. His area of work includes enabling enterprises, ISVs and startups to adopt cloud technologies best suited for their requirements. Being an early proponent of cloud computing, he has been working related technologies since 2008.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/jay.jpg",
+        "photo": "",
+        "tagline": "Tech Solutions Professional, Azure Incubation Team, Microsoft India"
+      },
+      {
+        "id": "C2F65650-4E08-4058-8DB1-1AA260BDC933",
+        "name": "Keshav Dhakad",
+        "twitterHandle": "",
+        "bio": "Keshav Dhakad is a Senior Attorney & Regional Director of Microsoft Digital Crimes Unit (DCU), Asia Region, based out of Singapore. Keshav leads and supervises the initiatives and strategies in the Asia region related to disrupting & fighting malicious software (malware) crimes, industry collaboration on cyber-threat intelligence, Trusted Cloud, cybercrime & cybersecurity awareness & outreach, fighting intellectual property crimes, and supporting license compliance. Keshav joined Microsoft in 2007, after being a litigation attorney with a law firm in New Delhi since 1999. Keshav is also a licensed attorney for the State of New York, USA, and enjoys speaking and writing in the areas of fighting cybercrime, threat intelligence in cloud & IPR crimes.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/kesav.jpg",
+        "photo": "",
+        "tagline": "Regional Director, Digital Crimes Unit, Asia, Microsoft"
+      }
+    ],
+    "title": "Building Trust in Cloud - Azure Security, Privacy & Compliance",
+    "Abstract": "Concerned about hosting your enterprise apps/services on public cloud platform? Curious what does 'trust' mean in cloud? The session goes into details of Azure's security features and operational practices with regards to how we address customer's concerns regarding security and data privacy. It will also discuss Azure's compliance certifications. The objective of the session will be to address security concerns and reinforce why Azure is secure platform for customers to leverage for their hybrid cloud deployments. The session will also introduce Microsoft Digital Crimes Unit & Cybercrime Center, and how cloud-based intelligence  & PowerMap technologies are being used at Microsoft to disrupt malware crimes as a pro-active defense strategy. It will demonstrate how cyber threat-intelligence has been enabled in Azure through big-data analytics to empower Microsoft cloud customers to check for infected devices in their environment in real time and experience the highest standards of trusted cloud platform.",
+    "begins": "2015-03-18T16:15:00",
+    "ends": "2015-03-18T17:10:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "9dc3a723-2234-46a4-80c7-6b4143865d16",
+    "speakers": [
+      {
+        "id": "00348a3e-df94-44a4-a398-22543f0dfeba",
+        "name": "Sandeep Alur",
+        "twitterHandle": "@Saalur",
+        "bio": "Sandeep Alur has over 15 years of industry experience working with a wide range of clients in India and across the globe. At Microsoft he works as a 'Lead Evangelist' with a sole motive to demonstrate the value of next generation Microsoft technologies. With the explosion of devices and services, he considers 'cloud platform' to be a great host for businesses to scale. His rich experience includes giving technology and architecture guidance to enterprise customers from the dotcom days to the distributed and cloud computing technologies of today. He has architected solutions across the Microsoft Technology Suite and is a firm believer of his own philosophy, which says, 'Enterprise architecture is an evolution and it grows with innovation.' Sandeep has authored several articles in the area of SOA, ESB, enterprise framework, distributed computing technologies, Web 2.0, next generation web and cloud computing to name a few. You can follow him on twitter @saalur.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sandeep.jpg",
+        "photo": "",
+        "tagline": "Lead Technology Evangelist, Microsoft India"
+      },
+      {
+        "id": "2a998720-7121-42f0-8505-c0b907d3134a",
+        "name": "Sarvashreshta Paliwal",
+        "twitterHandle": "",
+        "bio": "Sarvashreshta (known as Pali), has over 13 years of combined management and technical experience in enterprise software and IT service industries. In his current role, Pali is responsible for driving Azure business for Microsoft in India.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sarvashrestha.jpg",
+        "photo": "",
+        "tagline": "Sr. Product Marketing Manager, Microsoft India"
+      }
+    ],
+    "title": "Azure vs. AWS - The two heavy weights",
+    "Abstract": "This is not just theory, but pure pay workloads deployed and tested on a level playing field. Be it computing, data or app services, we will always look at the power of hosting and building solutions on Azure in comparison to AWS.",
+    "begins": "2015-03-19T15:00:00",
+    "ends": "2015-03-19T15:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "66b03614-3355-4a37-89b9-ede854b64ee6",
+    "speakers": [
+      {
+        "id": "19aae351-66be-4077-9378-4d2460ab1831",
+        "name": "Madhan Arumugam Ramakrishnan",
+        "twitterHandle": "@madhanwa",
+        "bio": "Madhan Arumugam Ramakrishnan is a Principal Manager of Program Management in Microsoft Azure. His team is responsible for the service management API of Azure Compute with a focus on PaaS Compute workloads, in-VM customization and DevOps scenarios with a focus on Linux/OSS support in Azure. He has also served as the Principal Lead Program Manager responsible for SQL Server Cloud offerings (IaaS, hybrid and PaaS) and specialized in mission critical database solutions. He has also served as a senior software engineer at Intel Corporation and developed cache coherency protocol models for multicore processor systems.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/madhan.jpg",
+        "photo": "",
+        "tagline": "Principal Program Manager, Microsoft"
+      }
+    ],
+    "title": "Running large Linux workloads on Azure - tools, patterns and best practices",
+    "Abstract": "One out of every 5 VMs in Azure run Linux applications and we are expecting a big growth in Linux workloads on Azure in the coming months too. In this session, learn about how to get started and the options available to you to develop and deploy your Linux application. Also, discuss best practices and example case studies from customers managing Linux/OSS applications in Azure and integration with partners like Docker, CoreOS, Canonical (Ubuntu), OpenLogic, SUSE, Oracle, Chef, and Puppet.",
+    "begins": "2015-03-19T11:00:00",
+    "ends": "2015-03-19T11:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "cbabd723-ffee-4253-8f5f-14d76a930b09",
+    "speakers": [
+      {
+        "id": "9ce64356-4be3-48db-836e-a43ed8a28593",
+        "name": "Rajashekaran Vengalil",
+        "twitterHandle": "@avranju",
+        "bio": "Raj has been a part of the IT Industry for more than a decade. He has worked on a wide range of Microsoft products and technologies, ranging from VC++, MFC and Win32 programming to the latest developments on the Web front, JavaScript and .NET. His current focus is on open source technologies that enable cloud computing workloads, mobile and web development. He works as a software development engineer for Microsoft Open Technologies Inc. When he's not tinkering with a computer, Raj can be found reading, playing tennis, listening to music, or playing computer games.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/rajashekaran.jpg",
+        "photo": "",
+        "tagline": "Software Engineer, Microsoft Open Tech, Microsoft USA"
+      }
+    ],
+    "title": "Docker on Azure",
+    "Abstract": "Microsoft Azure offers first class support for running Docker based workloads. In this session, we will discuss the details of how Docker works on Azure and how it can be best leveraged using Azure virtual machines. Topics covered include - setting up and running Docker containers on Linux, managing Docker deployments from Windows, container support on Windows and managing Windows containers using Docker, support for libswarm, using Kubernetes with Docker and Docker Machine support.",
+    "begins": "2015-03-19T12:00:00",
+    "ends": "2015-03-19T12:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "fa5e655f-edd9-43d7-b775-e36acb5595af",
+    "speakers": [
+      {
+        "id": "33b0488e-92c4-4061-a0dc-50bae0358a78",
+        "name": "Lakshmi Krishnamurthy",
+        "twitterHandle": "",
+        "bio": "With close to 15 years in the industry, Lakshmi currently works as an Azure Technology Specialist with a focus on advanced workloads such as ExpressRoute with Microsoft Corporation. She has extensively worked on Microsoft technologies with Microsoft Business Solutions at organizations like Cognizant and Wipro. She holds a Master's degree in Computer Applications and is passionate about helping customers adopt Microsoft Azure.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/lakshmi.jpg",
+        "photo": "",
+        "tagline": "Technology Solution Specialist, Azure Incubation Team, Microsoft India"
+      },
+      {
+        "id": "77781400-f231-47d2-b211-ac4f61ab7958",
+        "name": "Paul Laverty",
+        "twitterHandle": "",
+        "bio": "Paul Laverty is the Greater Asia Partner time zone lead for Express Route. Paul is responsible for building the 'go to market' sales execution plan with Microsoft's key strategic partners in a Network Service and Cloud Exchange Provider capacity. Furthermore, Paul has been working in cloud technologies for over five years, four of which have been spent building the Azure business for the Microsoft EMEA business.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/paul.jpg",
+        "photo": "",
+        "tagline": "Greater Asia Partner, Express Route"
+      }
+    ],
+    "title": "Extend your network to Azure using ExpressRoute",
+    "Abstract": "Learn about creating Linux & Windows VMs through Python scripts & customizing the VMs through VM extension. In this session, we will create three VMs (Linux) and use Linux Custom VM Extension & Windows Custom VM extensions to install MySQL Percona Cluster. We will also demo the same using powershell scripts & show it run both locally & using Azure automation.",
+    "begins": "2015-03-19T14:00:00",
+    "ends": "2015-03-19T14:55:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "9fb91262-8870-44af-be06-a7205e73d960",
+    "speakers": [
+      {
+        "id": "2c77d9d8-ca06-49a9-990a-1ab81ae6edfc",
+        "name": "Vishal Shirodkar",
+        "twitterHandle": "@VishalStudio",
+        "bio": "Vishal Shirodkar is a TSP for Azure with the Microsoft enterprise and partner group. His area of expertise includes the entire gamut of infrastructure solutions with special focus on security, management, interoperability, virtualization, and networking. In his current role he also focusses on Azure, private cloud and hybrid solutions. He has about 15 years of IT experience in various functions including system administration, designing and implementing solutions across the infrastructure stack. He is a CISSP, MCSE, MCST and ITILv4 certified. He has also cleared his CISA and CISM exams. He is a regular speaker at Microsoft events.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/vishal.jpg",
+        "photo": "",
+        "tagline": "Technology Solution Professional, Microsoft India"
+      },
+      {
+        "id": "7c453245-38d6-429c-b366-2ad957f0dc2b",
+        "name": "Anirudha Singh Rautela",
+        "twitterHandle": "",
+        "bio": "Anirudha is a Sr. Product Marketing Manager for Management and Identity and Access businesses in the Server and Cloud Business Group. He holds a Master's degree in Computer Applications with nearly thirteen years' experience in the field of information security and for the last one and a half years, he is driving the Modern Datacenter business for Microsoft in India. Additionally, Anirudha also runs the Security & Privacy Initiative to keep our customers and partners protected and secure at all times. His experience spans designing Layered Security Architectures for large enterprises, vulnerability assessments, device risk assessment, and application security testing. He has steered information security policies and procedures, conducted BS 7799 audits and formalised Business Continuity Plan for various organisations. Combining his security knowledge with that of the requirements of Modern Datacenters, Anirudha is able to drive in-depth conversations around end to end customer requirements. Anirudha has also represented Microsoft at various external events and a key speaker.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/anirudha.jpg",
+        "photo": "",
+        "tagline": "Sr. Product Marketing Manager, Microsoft India"
+      }
+    ],
+    "title": "Cloud Identity and Access Management: Microsoft Azure Active Directory Premium",
+    "Abstract": "Azure Active Directory is an enterprise-level identity and access management cloud solution. Azure Active Directory Premium, built on top of the core offering of Azure AD, provides a robust set of capabilities to empower enterprises with more demanding needs on identity and access management. In this session we present all of the new features of this premium offering: single sign-on to hundreds of popular SaaS application, group-based access management, self-service password reset, security reporting, multi-factor authentication, and more.",
+    "begins": "2015-03-19T16:15:00",
+    "ends": "2015-03-19T17:10:00",
+    "location": "Pune",
+    "Trackid": "e6415b43-23ed-496f-b5f4-737edb78b24a",
+    "TrackName": "Compute & Networking"
+  },
+  {
+    "id": "c1a62151-99fc-4a9f-8c07-180de669a9b2",
+    "speakers": [
+      {
+        "id": "8c28de20-2a62-4945-9646-92073240a742",
+        "name": "Rangarajan Srirangam",
+        "twitterHandle": "",
+        "bio": "Rangarajan Srirangam is a Senor Program Manager with the Azure Customer Advisory (Azure CAT) team. He has worked in the IT Industry for over 18 years and with Microsoft for the past 14 years. He has consulted on diverse projects for a large number of customers and delivered complex solutions spanning multiple Microsoft technologies. Ranga specializes in Azure focusing on the developer and data technologies. He has been a speaker at many events and has several published technical papers to his credit. Currently, he works with field teams and customers on interesting Azure projects.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/rangarajan.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, Microsoft India"
+      },
+      {
+        "id": "adb2d312-62df-43ed-9525-7f82281d5dbe",
+        "name": "Mandar Inamdar",
+        "twitterHandle": "@AzureSQL_India",
+        "bio": "Mandar Inamdar is a Principal Consultant with Microsoft Services, India. He has worked in the IT industry for over 18 years and with Microsoft for the past 11 years. He has consulted on diverse projects for large customers and delivered complex solutions spanning multiple Microsoft technologies. Mandar specializes on Data platforms including SQL, NoSQL, Big Data, etc. He has delivered technical sessions in many conferences. He currently works with customers on Data, Analytics and Azure projects.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/mandar.jpg",
+        "photo": "",
+        "tagline": "Principal Consltant, Microsoft India"
+      }
+    ],
+    "title": "Azure SQL Database : Performance and Disaster Recovery",
+    "Abstract": "Are you ready to use Azure SQL database but have questions about Performance and Disaster Recovery? In this session, we will discuss database performance, considering the new performance enhancement features which can significantly improve the performance of workloads and capabilities available to help in monitoring and troubleshooting. We will walk through disaster recovery options including automatic backup, geo-replication, and point in time restoration features and explain how they can be used to achieve a comprehensive disaster recovery strategy.",
+    "begins": "2015-03-18T11:00:00",
+    "ends": "2015-03-18T11:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "5617a897-4c58-4d63-830d-df20ab181dcc",
+    "speakers": [
+      {
+        "id": "7add9364-529b-426b-85a4-301b68ae5d41",
+        "name": "Deepthi Anantharam",
+        "twitterHandle": "@deananth",
+        "bio": "Deepthi is an engineer from the University of Bangalore and an alumnus of the International Institute of Information Technology - Bangalore. Currently, she is a Technology Evangelist with Microsoft Corporation India. She works with developers and IT professionals focusing on SQL Server, Business Intelligence and related technologies on premise as well as on cloud. Earlier, she has worked with several startups on BI in retail and banking domain.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/deepthi.jpg",
+        "photo": "",
+        "tagline": "Technical Evangelist, DX, Microsoft India"
+      },
+      {
+        "id": "d5edccf4-8be5-4a2f-a1fb-f1a49abc4398",
+        "name": "Ruhani Arora",
+        "twitterHandle": "@infinitydlimit",
+        "bio": "Ruhani is a technology enthusiast, who works with Microsoft India as a Technical Evangelist. Her role at Microsoft includes working with depth customers, students and developers to help them build Windows apps powered by Azure. A computer engineering graduate from Netaji Subhas Institute of Technology, Delhi University, Ruhani is an avid reader and loves to keep abreast with the latest technological developments around the globe.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/ruhani.jpg",
+        "photo": "",
+        "tagline": "Technical Evangelist, DX, Microsoft"
+      }
+    ],
+    "title": "Stream Analytics - Analyze your data in motion",
+    "Abstract": "In this session, learn about high scale streaming capacity of Eventhub and Stream Analytics. Also, learn how to use Azure data factory to combine streaming data with static/relative data (both on-premises and on cloud) to setup a workflow.",
+    "begins": "2015-03-18T12:00:00",
+    "ends": "2015-03-18T12:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "b9e5f150-f55b-4256-bad0-c83d389848be",
+    "speakers": [
+      {
+        "id": "0EC90F13-DD0A-4A13-91CB-07760B3C1251",
+        "name": "Govind Kanshi",
+        "twitterHandle": "",
+        "bio": "Govind from MTC in Bangalore helps customers adopt Azure and Data platform to address their business challenges. His areas of expertise include developing applications and finding/fixing bottlenecks. He believes in constant learning and sharing his knowledge with his peers. Data is what excites him and he has worked with customers across Reqular/NoSql stores and the BigData ones.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/govind.jpg",
+        "photo": "",
+        "tagline": "Director, MTC, Microsoft India"
+      },
+      {
+        "id": "b3eeb8f8-1c12-4954-b9c6-7d5676ab9a39",
+        "name": "Hemant Kathuria",
+        "twitterHandle": "",
+        "bio": "Hemant Kathuria is a Senior Consultant with Microsoft Consulting Services having more than 14 years of experience in the Software Industry in areas of Enterprise strategy, Consulting, Software design & Architecture, Project Management etc. Hemant has a wide range of experience in distributed computing, being part of team executing large scale distributed applications for industries such as land records, online retail, training management etc. He has also worked in the area of cloud like Azure Search and Azure IAAS. Recently he has helped one of the IT Major in India to integrate their local intranet with Azure portal using MAML API's.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/hemant.jpg",
+        "photo": "",
+        "tagline": "Sr. Consultant, Microsoft Consulting Services"
+      }
+    ],
+    "title": "Understanding when to use Management API, Resource Management and PowerShell",
+    "Abstract": "Many organizations don't want to manage AZURE IAAS from the Azure portal. This is because of many reasons, such as: Many internal teams want to provision VM's at Azure but the company does not want to share the subscription details. There are some internal approvals to be taken before provisioning the VM. They already have an internal portal to manage a private cloud and want to use the same for provisioning at Azure cloud. In order to achieve the above, the same experience as Azure portal can be achieved with the help of MAML API's or PowerShell. The objective is to show that it's straightforward and to be used as any other SDK. This allows customization of the Portal experience and enforcement of governance. As RBAC and RM mature, this is the path every customer needs to move towards and adopt. This will also help explain the most confusing issues of Azure management. We have two front ends RDFE and RM with the latter maturing at faster rate.",
+    "begins": "2015-03-18T14:00:00",
+    "ends": "2015-03-18T14:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "9fc0b8b3-9956-450f-8a1b-c0d05eed01ee",
+    "speakers": [
+      {
+        "id": "d89ebfbc-3d9a-4ec1-b412-1e93279cec37",
+        "name": "Cameron Gardiner",
+        "twitterHandle": "",
+        "bio": "Cameron Gardiner is a member of the team porting SAP applications to Microsoft platforms, based in Singapore. Cameron has 20 years of experience in ERP applications running on Unix Oracle/DB2 and Microsoft SQL Server, and has worked for large multinational companies such as Merrill Lynch, Nestle and Norwich Union. He was a team leader in Nestle's Asia Pacific SAP center responsible for the implementation, operations and maintenance of Nestle's SAP systems in Asia, Middle East and Pacific region. During this role, Cameron worked with high end IBM pSeries systems running DB2. Cameron is a former SAP consultant and is SAP Netweaver '04 Basis Certified and SAP Database Migration Certified.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/cameron.jpg",
+        "photo": "",
+        "tagline": "Principal Program Manager, Microsoft"
+      }
+    ],
+    "title": "Running SAP applications on Azure Public Cloud",
+    "Abstract": "Reduce costs, increase DR capabilities, and improve deployment time by running SAP applications on Azure. Join this session to discuss the technical requirements and certification roadmap of SAP, Oracle, Sybase, Linux and HANA on Microsoft Azure platform. Also, hear about real customer success stories showing multi-billion dollar businesses running SAP live in production on Azure.",
+    "begins": "2015-03-18T15:00:00",
+    "ends": "2015-03-18T15:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "9a8d76d0-a7a3-4fde-a637-d89d6a371fb3",
+    "speakers": [
+      {
+        "id": "a035a180-0ff6-43e9-9d50-e3ff1e3dcd61",
+        "name": "Nandan Umarji",
+        "twitterHandle": "@nandanumarji",
+        "bio": "Entrepreneur with strong engineering and mathematics background. He has worked with the analytical side of the software and simplified various business problems for specific purpose on Microsoft & Open Source Platforms. He closely works with multiple cross functional teams & consults them for technology, machine learning & business intelligence.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/nandan.jpg",
+        "photo": "",
+        "tagline": "Entrepreneur, Mectorus"
+      }
+    ],
+    "title": "Practical Machine Learning",
+    "Abstract": "In this session, we will see how to take the existing data, shape it, and create models that automatically can make principled business decisions directly in the applications. The discussion will include explanations of the data acquisition and shaping process. Additionally, we will learn about a few practical machine learning problems.",
+    "begins": "2015-03-18T16:15:00",
+    "ends": "2015-03-18T17:10:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "fed09aae-09d9-4152-ac35-4289c6ceb408",
+    "speakers": [
+      {
+        "id": "9fc9e73b-c22e-400e-98a7-d7b931a64dfe",
+        "name": "Vinod Kumar M",
+        "twitterHandle": "@vinodk_sql",
+        "bio": "Vinod Kumar M currently works at the MTC as a Technical Architect. He has been helping customers take technology decisions for their enterprise software's high performance. He is a regular speaker at all Microsoft conferences for the past 10 years on subjects like databases, application tuning and performance tuning. He is a blogger and has authored two books.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/vinod.jpg",
+        "photo": "",
+        "tagline": "Architect, MTC, Microsoft India"
+      }
+    ],
+    "title": "Inside Azure Storage - Options, abstractions and best practices",
+    "Abstract": "Azure Storage is a highly scalable, available, and durable cloud storage system that stores trillions of objects and serves in over 1 million requests per second. It provides abstractions like NoSQL Tables, Blobs, Files and Queues etc. all built on top of the same framework. Azure Storage powers cloud service performance: Infrastructure as a Service (IaaS), StorSimple, Media Services and many other cloud services are directly dependent on the IO horsepower delivered by Storage. In this session, we will examine what can be done to increase performance. We will examine common problems and how to avoid them.",
+    "begins": "2015-03-19T11:00:00",
+    "ends": "2015-03-19T11:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "786b9d3e-e2e5-4e04-b7b0-0ecaba6f512c",
+    "speakers": [
+      {
+	  "id": "60858337-3c86-4fe8-a697-aac592816fba",
+        "name": "Manish Sharma",
+        "twitterHandle": "@manisharma_ms",
+        "bio": "Manish has over 12 years of experience in the industry and is currently working on Azure and IOT. Before joining Microsoft he developed .NET based Geo-Spatial/Non-spatial web products and worked in Telecoms, eCommerce and Commodity trading domains. He has also developed and Artificial Intelligence based pricing engine for Telcos.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/manish.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      }
+    ],
+    "title": "Exploring the power of Azure Search",
+    "Abstract": "Azure Search enables developers to incorporate great search experiences into their applications without having to become experts on search. In this session, explore the features of Azure Search and what capability it offers.",
+    "begins": "2015-03-19T16:15:00",
+    "ends": "2015-03-19T17:10:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "ed5e4d10-cc32-4276-9b71-f686d7a072fe",
+    "speakers": [
+      {
+        "id": "da51cd7c-415c-46a0-9d4e-bd71f44dfe46",
+        "name": "Amit Bansal",
+        "twitterHandle": "@A_bansal",
+        "bio": "Amit R S Bansal is a Director and Principal Consultant at SQL Maestros, a brand of eDominer Systems. He leads the Cloud, SQL & BI practice with a team providing consulting, training, content development & support services to more than 120 SQL Server customers globally. He frequently speaks at international conferences including Microsoft TechEd India, North America & Europe. Amit has been honored with Microsoft Regional Director's status, MVP award and Microsoft Certified Master of SQL Server credential.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/amit.jpg",
+        "photo": "",
+        "tagline": "Regional Director, SQL Maestros, Bengaluru"
+      }
+    ],
+    "title": "Migrate databases to the cloud - Why, How and Best Practices.",
+    "Abstract": "This session will focus on addressing the challenges you might face when migrating an on-premise OLTP to Microsoft Azure SQL Database that handles thousands of TPS - including system & storage design considerations, scalability & data sharing and performance monitoring & data caching. Explore solutions and real-life experiences that you can be applied to your migration project.",
+    "begins": "2015-03-19T14:00:00",
+    "ends": "2015-03-19T14:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "3bec8e07-6f8b-4a9a-b3e3-ee7f397f552c",
+    "speakers": [
+      {
+        "id": "c3c4cbba-b157-49ea-a13f-1ebe6dc65d41",
+        "name": "Sudhir Rawat",
+        "twitterHandle": "@rawatsudhir",
+        "bio": "Sudhir Rawat is a Support Escalation Engineer. His areas of focus include Microsoft Business Intelligence suite and big data. He is passionate about the magic (Analytic and Mining) that can be done on data to enable businesses deliver great results. He is a Microsoft Certified Technology Specialist, Microsoft Certified IT Professional and Microsoft Certified Trainer in Microsoft SQL Server Business Intelligence. He is an active member on forums like Tech-ed India, Reboot, SQLServerGeeks, Global India Developer Summit and various colleges and business units. He blogs at- http://blogs.msdn.com/b/biblog/ http://blogs.msdn.com/b/bigdatasupport/",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sudhir.jpg",
+        "photo": "",
+        "tagline": "Support Escalation Engineer, Microsoft India"
+      }
+    ],
+    "title": "Choosing Right Platform for Big Data",
+    "Abstract": "In this session, we'll discuss about the use cases of different types of cluster which help IT administrator to decide what type of cluster you need to choose for your business load. Also, explore how the necessary performance can be achieved on different data load and what are the tools available to setup clusters to make managing and deployment easier. Additionally, understand how clusters creation can be extended using script action.",
+    "begins": "2015-03-19T15:00:00",
+    "ends": "2015-03-19T15:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "8c6b701b-a71d-4d4d-821d-e5387a244f2d",
+    "speakers": [
+      {       
+        "id": "a27a8a48-400c-4914-a4c3-a0ecf8bf4a66",
+        "name": "Norman Sequeria",
+        "twitterHandle": "@normseq",
+        "bio": "Norman Sequeira is a Cloud Solution Architect and has been working with Microsoft India for over 14 years. He has worked on multiple turnkey projects for customers in media and retail industries. Norman is regarded as an SME on e-commerce and integration technologies and has been consulting on Microsoft Azure for the past few years. He is also a Microsoft Certified Professional on BizTalk Server and Microsoft Azure.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/norman.jpg",
+        "photo": "",
+        "tagline": "Cloud Solutions Architect, Microsoft India"
+      }
+    ],
+    "title": "Azure Service Bus Deep Dive",
+    "Abstract": "Azure Service Bus is a key component to almost every cloud-scale application and it provides a hosted, secure, and widely available infrastructure for widespread communication, large-scale event distribution, naming, and service publishing. In this session, we will cover the key features like Queues, Topics, Relays, Event Hubs and messaging/eventing capabilities supported by Service Bus. Also, explore the common messaging patterns applicable for the Azure Service Bus Services.",
+    "begins": "2015-03-19T12:00:00",
+    "ends": "2015-03-19T12:55:00",
+    "location": "Pune",
+    "Trackid": "bfa679e7-a35b-4f7a-b0ea-7fd973d3ef12",
+    "TrackName": "Data Services"
+  },
+  {
+    "id": "9a07ee59-dcce-4c99-a4d1-18bcf5bbcd43",
+    "speakers": [
+      {
+        "id": "7486c4c5-184c-41e5-bbfa-278f2fc455f4",
+        "name": "Punit Shah",
+        "twitterHandle": "https://www.linkedin.com/pub/punit-shah/6/621/110",
+        "bio": "Punit works as a Sr. Premier Field Engineer at Microsoft India. He is an accomplished technical consultant with over 10 years' experience on Microsoft Technologies, Software Development, Production Debugging, Cloud Computing, etc. In his current role, he is responsible for providing support and consulting on proactive and reactive work stream for India Premier customers on Cloud and Microsoft Technologies. Apart from helping customers adopt Cloud Platform, he is passionate about Performance Tuning of the applications deployed on Cloud or On-Premise.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/punit.jpg",
+        "photo": "",
+        "tagline": "Sr. Premier Field Engineer, Microsoft India"
+      },
+      {
+        "id": "2e9f8ff0-8c8a-467b-8e26-7db98f0b274e",
+        "name": "Sameeksha Khare",
+        "twitterHandle": "@SameekshaKhare",
+        "bio": "Sameeksha Khare is a Technology Evangelist based out of Mumbai. She has been working with Windows 8.1 & Windows Phone 8.1 apps and now with Microsoft Azure. She focuses on Azure websites, push notification and storage.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sameeksha.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      }
+    ],
+    "title": "Build multi-tier solutions using Cloud Services",
+    "Abstract": "Are you confused between Virtual Machines, Azure Websites and Cloud Services? If you're not sure about how cloud services differ from other platforms and how to build your cloud services solutions, then this is the session for you. In this session, you can learn about a highly available and infinitely scalable platform to host your next web application. Also, learn how to build multi-tier applications using Azure Cloud Services and how it lets you focus on your application logic, while allowing the scaling infrastructure to be fully managed by the Azure platform.",
+    "begins": "2015-03-18T11:00:00",
+    "ends": "2015-03-18T11:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "729f5daf-16b0-4ed3-851c-83e4f576c3be",
+    "speakers": [
+      {
+        "id": "8cb18ddf-251c-4157-87e2-9d9449252605",
+        "name": "Saurabh Kirtani",
+        "twitterHandle": "@saurabhkirtani",
+        "bio": "Saurabh Kirtani is a Technical Evangelist with the developer experience and evangelism team at Microsoft India. He works on Microsoft technologies like .NET Framework, C# language, Microsoft Azure, IoT solutions (using Galileo) and Windows App development. He has also worked on client-side web development using JavaScript, jQuery, Bootstrap, HTML and CSS3.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/saurabhK.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      },
+      {
+        "id": "747538a4-e32c-4b2f-a5c8-1e9d23bfc5f3",
+        "name": "Ujjwal Kumar",
+        "twitterHandle": "@ujjwalkr",
+        "bio": "Ujjwal Kumar is a Technical Evangelist for Windows Phone, Windows 8, Microsoft Azure platform and IoT with Microsoft Developer Experience & Evangelism (DX) Group. He focuses on apps and game development. Prior to his current role he worked as a Partner Consultant and Development Platforms Worldwide Specialization Lead. He has 11 years of industry experience, out of which over 8 years has been with Microsoft. He has extensively worked on C++, C#, Microsoft Azure, Windows Internals, Robotics Studio, game development and image processing. In his current role, he assists client and partner organizations to adopt latest technology platforms. He is an avid technologist, a prominent speaker and the founder of the India Gamers Community.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/ujjwal.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      }
+    ],
+    "title": "Architecting Azure based solutions for IoT",
+    "Abstract": "In this session we will start by showcasing an IoT device with Intel Galileo, which will interact with multiple sensors, and connect them to Azure. We will use Events Hub to send out events from the device, and stream insights for this scenario. We'll then walk you through a real-world IoT-based solution architecture where we'll look upon various options and best practices to build the solution, following which, we'll showcase an existing client solution architecture. After this session, you can expect to know the best practices and start building your own awesome IoT-based solutions!",
+    "begins": "2015-03-18T12:00:00",
+    "ends": "2015-03-18T12:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "73f27472-be35-48c8-adfb-06b25d3ecbac",
+    "speakers": [
+      {
+        "id": "0427dc96-29a3-4a8e-9df2-9dcea15509f8",
+        "name": "Puneet Gupta",
+        "twitterHandle": "@puneetguptams",
+        "bio": "Puneet Gupta is an Escalation Engineer with the developer support Internet team at Microsoft and has been supporting web developer technologies for over 10 years. He is an SME on IIS, ASP.NET, COM, COM+, web services and WCF App-Fabric technologies and possesses strong debugging and troubleshooting skills for all Microsoft web based developer technologies. Puneet has been working on Windows Azure Web sites since their general availability.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/puneet.jpg",
+        "photo": "",
+        "tagline": "Escalation Engineer, Microsoft India"
+      },
+      {
+        "id": "874c9b13-21e5-4f38-99ae-751c71e6049f",
+        "name": "Kaushal Kumar Panday",
+        "twitterHandle": "@ikaushalkp",
+        "bio": "Kaushal is an Escalation Engineer with the Azure Websites team in Microsoft. He joined Microsoft as a college hire and has been working on IIS & ASP.NET for more than five years. He has been working on the Microsoft Azure Websites team since the product was in BETA. He is also an expert on IIS and is an SME on SSL and IIS related technologies. He helps Microsoft customers & partners in resolving business critical issues. He has been a speaker on the previous Azure conference and the TechEd's. Kaushal blogs actively (blogs.msdn.com/kaushal) and is among the top 50 MSDN bloggers.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/kaushal.jpg",
+        "photo": "",
+        "tagline": "Escalation Engineer, Microsoft India"
+      }
+    ],
+    "title": "Azure Websites - Be the Debug Ninja + Application Insights",
+    "Abstract": "Ever hosted a site on the Azure websites platform? If yes, then this session is for you. In this session, we will discuss troubleshooting Azure websites namely the KUDU Console, the Support Portal and the powerful DAAS (Diagnostic As a Service), Azure site Extensions. Hear from Azure Websites support team that helps customers on a daily basis on troubleshooting errors and performance issues. Also, understand the diagnostics capabilities that the platforms offer.",
+    "begins": "2015-03-19T12:00:00",
+    "ends": "2015-03-19T12:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "e80d027d-6a8c-43ac-9ad9-0b49309eb651",
+    "speakers": [
+      {
+        "id": "73d740e7-0d41-4055-827a-0a30a22ca3ce",
+        "name": "Sanjay Narang",
+        "twitterHandle": "",
+        "bio": "Sanjay is Cloud Solution Architect (CSA) with Microsoft India. He specializes in Microsoft public cloud - Azure. Sanjay is Post Graduate in IT with over 15 years of experience in wide range of roles like consulting, solution architecture, project management, application design and development, product support and testing, and pre sales. He has been with Microsoft for over 7 years. In his previous role, Sanjay focused on SharePoint products and technologies. He has architected and deployed some of the India's largest SharePoint implementations. He has consulted various enterprise customers like Infosys, Cognizant, Wipro, Mindtree, iGATE and TCS on development and deployment of Microsoft technologies. He has many published technical articles to his credit. He has been a speaker at various conferences and events. Sanjay also holds many certifications including TOGAF 9, MCSE, and MCM. Sanjay's blog : http://blogs.msdn.com/b/sanjaynarang/",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sanjay.jpg",
+        "photo": "",
+        "tagline": "Cloud Solution Architect, Microsoft India"
+      },
+      {
+        "id": "3E60F0A4-E4AB-4567-A199-3F6B3EF2BBB9",
+        "name": "Shweta Gaur",
+        "twitterHandle": "",
+        "bio": "Shweta is Senior Architect with Infosys, and has over 15 years of experience in architecting, designing and implementing technology solutions on Microsoft platform, deploying applications to public cloud and performance tuning of applications. She is SharePoint SME and has architected and implemented large SharePoint implementations in various workloads: ECM, Enterprise Social, WCM, Internet facing sites. In her current role, she is responsible for defining reference architecture, guidance and best practices, as well as governance policies for SharePoint based applications. Her other interest areas include Big Data Analytics. ",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/ShwetaG.jpg",
+        "photo": "",
+        "tagline": "Sr. Architect, Infosys"
+      },
+      {
+        "id": "951A6DB0-D99E-4512-90FB-6563EEAA25C7",
+        "name": "Lynburn Morris",
+        "twitterHandle": "",
+        "bio": "",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/lynburn.jpg",
+        "photo": "",
+        "tagline": "Sr. Architect, Infosys"
+      }
+    ],
+    "title": "SharePoint on Azure & Infosys.com case study",
+    "Abstract": "You'll learn about the considerations and requirements for deploying a highly available and scalable SharePoint Farm on Azure and different Azure Services that you can use. What should be typical logical architecture in Azure. You'll also learn about how Infosys.com is architected on Azure, what challenges were faced and how were they addressed. How it was made geo-distributed to get even better SLA than what Azure provides. ",
+    "begins": "2015-03-18T15:00:00",
+    "ends": "2015-03-18T15:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "1a2eb445-c9bc-4c6f-a872-9d45917ccc31",
+    "speakers": [
+      {
+        "id": "17A40A33-88B9-4555-B4CA-EB99A5A531E6",
+        "name": "Capt. Saurabh Ranjan",
+        "twitterHandle": "@CognosysTech",
+        "bio": "After commanding super tankers for over 16 years in Mercantile Marine, Capt. Ranjan with no formal education in computers is the most unlikely person to be a founder and consulting CTO/CIO of large enterprises working with developer teams.Always leading from the front and ever ready to learn, he is never shy to brainstorm on diverse technologies. Known for his workarounds in complex scenarios, his pursuits on app latency & server performance give sleepless nights to internal product teams.A President's Gold Medalist recipient, Capt. Ranjan is CFA Level III and MS in counselling.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/saurabh.jpg",
+        "photo": "",
+        "tagline": "Principal, Cognosys"
+      }
+    ],
+    "title": "Azure Batch & Jobs : Enterprise Scale Workloads in Azure",
+    "Abstract": "Join us to build enterprise solutions running large scale workloads on Azure using the multivalent services offered in Azure.Come and deploy large backgrounds tasks with Azure Batch or run Webjobs without spinning off instances or schedule any workflow without hundreds of lines of code. Experience the swiss knives at your disposal with azure new services streamlining your production rollouts for complex deployments seamlessly. Azure:Solving Enterprise Problems, today!",
+    "begins": "2015-03-18T16:15:00",
+    "ends": "2015-03-18T17:10:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "8576a70d-b30f-4f61-a2f0-bb0ab3d34acc",
+    "speakers": [
+      {
+        "id": "BD7D7E6A-B384-4A22-A0F2-B47F438F7FA3",
+        "name": "Vishal Sood",
+        "twitterHandle": "@vishalsood",
+        "bio": "Vishal is a founding member of the Azure Media Services team and has about 10 years of domain experience in video streaming and related areas. He has been at Microsoft for over 12 years.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/vishals.jpg",
+        "photo": "",
+        "tagline": "Principal Program Manager, Microsoft"
+      },
+      {
+        "id": "cf2c9d59-aa4c-442d-9a1b-b0978b1ba57f",
+        "name": "Gurusubramanian Balasubramanian",
+        "twitterHandle": "@guruniranj",
+        "bio": "Guru Bala has been instrumental in growing the Azure Business in India over the last 4 years. Recently he helped in driving scale and adoption of advanced workloads of Azure like media services, big Data, etc. amongst customers in the Asia region.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/gurusubramanian.jpg",
+        "photo": "",
+        "tagline": "Solution Specialist, Microsoft India"
+      }
+    ],
+    "title": "Stream video using the cloud scale of Azure Media Services",
+    "Abstract": "In this session we will discuss what it takes to deliver video at scale and how you don't have to worry about it. Learn about the capabilities of Azure Media Services from content ingestion, hosting, streaming to value added capabilities like cross browser playback, sub-clipping, automatic archiving of live content, etc.",
+    "begins": "2015-03-19T11:00:00",
+    "ends": "2015-03-19T11:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "808a22f9-d167-4b6b-bc43-2b7d366be691",
+    "speakers": [
+      {
+        "id": "44068aa9-078c-44cc-93f8-ca09b01aa263",
+        "name": "Abhishek Narain",
+        "twitterHandle": "@narainabhishek",
+        "bio": "As a Technical Evangelist at Microsoft India, Abhishek helps developers adapt to the latest Microsoft technologies. Previously, he was a consultant at Microsoft focusing on ASP.NET, Azure, Windows Phone, client web technologies and game development. He is a regular speaker at Microsoft TechEd, .NET User Groups. Prior to Microsoft, Abhishek was working at Infragistics - a leading UI/UX company. He has worked extensively on HTML5 and was awarded the Microsoft MVP award while working outside Microsoft.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/abhishek.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      },
+      {
+        "id": "9f1e2bf7-c2c5-44ce-95cb-825d1bdb3dd5",
+        "name": "Sukriti Sharma",
+        "twitterHandle": "@suksharma",
+        "bio": "Sukriti Sharma is a Technical Evangelist with the developer experience and evangelism team at Microsoft India. Before moving to Azure, she primarily worked on Microsoft technologies like C#/XAML, Windows 8 and Windows Phone app development. Recently her focus has been Azure Websites and Azure Mobile app development. Sukriti holds a degree in electronics and communications from the Manipal Institute Of Technology.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sukriti.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      }
+    ],
+    "title": "Introducing Azure Mobile Engagement",
+    "Abstract": "We believe you certainly put a great deal of effort in trying to make it a great app that users will love. But after the initial exhilarating peak of users, you might see them slowly stop using your app. This is what Azure Mobile Engagement is all about: getting them to stick around and allow you to incrementally improve your app through test and learn. Our approach to improving retention and usage is based on engaging app users through Push Notifications and In-app messages, but in a very special way, with messages and communication tailored to them, each according to their behavior within the app. Our goal is to let you communicate with the right audience at the right time and the right location.",
+    "begins": "2015-03-18T14:00:00",
+    "ends": "2015-03-18T14:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "4cb9b155-d0e7-4983-b38d-432264c1b07f",
+    "speakers": [
+      {
+        "id": "20de5113-a81c-40c2-bfae-6b84f90e5302",
+        "name": "Srikantan Sankaran",
+        "twitterHandle": "@SrikantanS",
+        "bio": "Srikantan is a Senior Program Manager with the TED Team and works with ISVs that build solutions under verticals like manufacturing, retail, healthcare and government. He recently moved from the MCS Bangalore where he worked as an Architect and Senior Consultant on diverse projects encompassing SharePoint, Project Server, .NET Technologies, Windows 8 App Development, BizTalk Server and Azure. He has also worked as a Partner Solution Architect, collaborating with the leading SI partners in India like Infosys, Satyam, HP, and Mindtree. He has worked with organizations in manufacturing and maintenance from EPC project consultants to multinational IT service companies in areas spanning ERP implementation, application development and enterprise application integration.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/srikantan.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, Microsoft India"
+      }
+    ],
+    "title": "Modernize, Monetize and Manage access to your Line of Business Services using Azure API Management",
+    "Abstract": "Increase the reach, utility and potential of your Native Line of Business Applications, by quickly modernizing them through protocol support like REST, Json using the Azure API Management capabilities. Manage the traffic, access to and performance of these APIs to suit your organizational needs. Improve the discoverability and adoption of these APIs through a developer friendly API catalog.",
+    "begins": "2015-03-19T14:00:00",
+    "ends": "2015-03-19T14:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "fae0d2dd-d104-44c1-87e7-f8bda466f595",
+    "speakers": [
+      {
+        "id": "1bbc9ed9-6f80-432b-9b4a-ce5872bbf49d",
+        "name": "Janakiram",
+        "twitterHandle": "@janakiramm",
+        "bio": "Janakiram MSV is a Senior Analyst with Gigaom Research and the Founder and Principal Analyst at Janakiram & Associates. He also founded Get Cloud Ready Consulting and served as the CTO. The niche Cloud Migration and Cloud Operations firm later got acquired by Aditi Technologies. He is a guest faculty at the International Institute of Information Technology, Hyderabad (IIIT-H) teaching Big Data, DevOps and Cloud Computing at the master's level. In his illustrious career Janakiram has also worked with world-class product companies including Microsoft Corporation, AWS and Alcatel-Lucent.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/janakiram.jpg",
+        "photo": "",
+        "tagline": "Sr. Analyst, Gugom Research & Principal Analyst, Janakiram & Associates, India"
+      }
+    ],
+    "title": "Leveraging Azure to Build IoT Solutions",
+    "Abstract": "This session will demonstrate a real world scenario that harnesses the collective power of IoT and Cloud. Learn how Azure platform can be used to control actuators and switches. We will walk you through the steps of wiring up sensors with Arduino and Raspberry Pi that call REST API to stream data to cloud databases.",
+    "begins": "2015-03-19T15:00:00",
+    "ends": "2015-03-19T15:55:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "a356b44e-8b20-4a71-8a5d-27ed4753fce4",
+    "speakers": [
+      {
+        "id": "ee3d1a15-3869-4235-9f15-c89eb9c4084a",
+        "name": "Himanshu Bharadwaj",
+        "twitterHandle": "",
+        "bio": "Himanshu works as a Technology Solutions Specialist on Dev Tools with Microsoft India. He has been in the industry for close to 11 years. He has spent a number of years with various Application Life Cycle Management Tools in the IT Industry. For about 2 years he has worked extensively on Microsoft technologies like Visual Studio, Team Foundation Server, Visual Studio Online and Azure. He holds a master's degree in Computer Applications and is passionate about helping customers in successfully adopting Microsoft Tools for Application Life cycle Management.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/himanshu.jpg",
+        "photo": "",
+        "tagline": "Technology Solutions Professional, Microsoft India"
+      }
+    ],
+    "title": "Dev & Test on Azure",
+    "Abstract": "How teams can leverage cloud for their Dev & Test. Visual Studio Online and its capabilities of Team Foundation Server with additional cloud services. Get up and running in minutes on our cloud infrastructure without having to install or configure a single server. Experience Project Management, development, version control, build, test and Release from the cloud service - Visual Studio Onlin",
+    "begins": "2015-03-19T16:15:00",
+    "ends": "2015-03-19T17:10:00",
+    "location": "Pune",
+    "Trackid": "8a08c1b3-8677-4074-b93d-78b606848eaa",
+    "TrackName": "App Services"
+  },
+  {
+    "id": "4b6cb68d-a41a-4191-8cd2-cf011012e76f",
+    "speakers": [
+      {
+        "id": "17A40A33-88B9-4555-B4CA-EB99A5A531E6",
+        "name": "Capt. Saurabh Ranjan",
+        "twitterHandle": "@CognosysTech",
+        "bio": "After commanding super tankers for over 16 years in Mercantile Marine, Capt. Ranjan with no formal education in computers is the most unlikely person to be a founder and consulting CTO/CIO of large enterprises working with developer teams.Always leading from the front and ever ready to learn, he is never shy to brainstorm on diverse technologies. Known for his workarounds in complex scenarios, his pursuits on app latency & server performance give sleepless nights to internal product teams.A President's Gold Medalist recipient, Capt. Ranjan is CFA Level III and MS in counselling.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/saurabh.jpg",
+        "photo": "",
+        "tagline": "Principal, Cognosys"
+      }
+    ],
+    "title": "Migrating from Amazon to Microsoft Azure",
+    "Abstract": "Dealing with migration woes from AWS? Stuck while deciphering analogy between AMI and VHDs, S3 and Blobs, RDS and Sql Azure? In this session, you can learn to solve real life scenarios from anywhere to Azure with an open ended interactive discussion. This session is suitable for architects, solutions specialists, and developers.",
+    "begins": "2015-03-18T11:00:00",
+    "ends": "2015-03-18T11:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "9C0AC9A4-FDFF-4990-AC56-190B9FDA84A8",
+    "speakers": [
+      {
+        "id": "2B6DB560-8AA6-4072-94AF-30652963B9E8",
+        "name": "Mohammed Nasiruddin",
+        "twitterHandle": "@mnoncloud",
+        "bio": "Muhammad has been one of the first few advocates of Azure since its inception and has been an evangelist for Microsoft technologies for over 15 years. At Microsoft, he is responsible for evangelizing Azure and assisting partners and customers in adopting Azure. He has also been instrumental in architecting, designing, developing and testing a large number of apps on Azure. As part of his role, he works on deploying a wide range of Open Source Technologies on Azure including Java, PHP, Drupal, MySQL, Mongo DB, Hadoop, etc.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/mohammed.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, Microsoft"
+      },
+      {
+        "id": "4ce31e5c-9bbe-4001-818c-8d7b649c4aa5",
+        "name": "Shweta Gupta",
+        "twitterHandle": "@Shwetastweets",
+        "bio": "Shweta is a senior program manager in Microsoft, who specializes on Azure. Her expertise lies in enabling, building and migration of big data workloads onto Azure, focusing on re-architecting for short term as well as long term. With over nine years of work experience in various Microsoft technologies, Shweta is now associated with Azure since the last three years. Shweta has a computer applications background with an MBA in Finance. In the past she has written papers and spoken at several international conferences on application of information technology in the financial reporting domain.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/Bshweta.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, Microsoft India"
+      }
+    ],
+    "title": "Millions of messages from multiple Devices",
+    "Abstract": "The hasty explosion of connected devices increases challenges due to the diversity of platforms, protocols involved and the scale. In this discussion, we will highlight the Azure services that can be used to handle these challenges and walk through a sample that aggregates data from devices and enables simple event processing.",
+    "begins": "2015-03-18T12:00:00",
+    "ends": "2015-03-18T12:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "9f0bb5c0-4c23-407c-afaf-a9b949c4e79f",
+    "speakers": [
+      {
+        "id": "9ce64356-4be3-48db-836e-a43ed8a28593",
+        "name": "Rajashekaran Vengalil",
+        "twitterHandle": "@avranju",
+        "bio": "Raj has been a part of the IT Industry for more than a decade. He has worked on a wide range of Microsoft products and technologies, ranging from VC++, MFC and Win32 programming to the latest developments on the Web front, JavaScript and .NET. His current focus is on open source technologies that enable cloud computing workloads, mobile and web development. He works as a software development engineer for Microsoft Open Technologies Inc. When he's not tinkering with a computer, Raj can be found reading, playing tennis, listening to music, or playing computer games.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/rajashekaran.jpg",
+        "photo": "",
+        "tagline": "Sr. Software Development Engineer, Microsoft"
+      }
+    ],
+    "title": "Open Source Dev Ops on Azure",
+    "Abstract": "Automating and managing your cloud infrastructure can turn out to be a chore. This chalk talk reviews some of the popular open source tools that help automate administration of your cloud deployments. Join this talk to learn about running Chef and Puppet, and other tools to manage your Azure resources.",
+    "begins": "2015-03-18T14:00:00",
+    "ends": "2015-03-18T14:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "4a39f694-7cf5-49e1-90d9-384060c39d94",
+    "speakers": [
+      {
+        "id": "8c28de20-2a62-4945-9646-92073240a742",
+        "name": "Rangarajan Srirangam",
+        "twitterHandle": "",
+        "bio": "Rangarajan Srirangam is a Senor Program Manager with the Azure Customer Advisory (Azure CAT) team. He has worked in the IT Industry for over 18 years and with Microsoft for the past 14 years. He has consulted on diverse projects for a large number of customers and delivered complex solutions spanning multiple Microsoft technologies. Ranga specializes in Azure focusing on the developer and data technologies. He has been a speaker at many events and has several published technical papers to his credit. Currently, he works with field teams and customers on interesting Azure projects.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/rangarajan.jpg",
+        "photo": "",
+        "tagline": "Sr. Program Manager, Microsoft India"
+      },
+      {
+        "id": "adb2d312-62df-43ed-9525-7f82281d5dbe",
+        "name": "Mandar Inamdar",
+        "twitterHandle": "@AzureSQL_India",
+        "bio": "Mandar Inamdar is a Principal Consultant with Microsoft Services, India. He has worked in the IT industry for over 18 years and with Microsoft for the past 11 years. He has consulted on diverse projects for large customers and delivered complex solutions spanning multiple Microsoft technologies. Mandar specializes on Data platforms including SQL, NoSQL, Big Data, etc. He has delivered technical sessions in many conferences. He currently works with customers on Data, Analytics and Azure projects.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/mandar.jpg",
+        "photo": "",
+        "tagline": "Principal Consltant, Microsoft India"
+      }
+    ],
+    "title": "Planning Disaster Recovery for Enterprise Applications on Azure",
+    "Abstract": "This chalk talk will focus on disaster recovery options for applications. We will cover multiple local and geo disaster recovery options for applications using Azure Storage, Azure SQL Database, SQL Server on VMs, Azure Traffic Manager etc. Also, the session will include a discussion on primary and secondary techniques for establishing sound DR techniques and practices for cloud-only or hybrid applications. The consequences of choosing specific options will be also be discussed.",
+    "begins": "2015-03-18T15:00:00",
+    "ends": "2015-03-18T15:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "77918a60-46d7-48ec-bc09-e1252d6a2a61",
+    "speakers": [
+      {
+        "id": "541faab2-7480-4e1b-a9a0-6c3c247b0fc8",
+        "name": "Suresh Venkateshwaran",
+        "twitterHandle": "@svenkate",
+        "bio": "Suresh is an experienced software engineering leader with a keen interest in rolling out technology to enterprise businesses. These include - SAP rollout for a Fortune 500 company, deployment of Windows security updates to a billion computers across the world, customer support transformation for Microsoft Azure and expansion of Azure into India. He believes that strong relationships are the foundation for business success. Suresh&38217;s specialties include End-to-end product management, leading teams, driving change in organizations, building cloud scale services and running datacenter operations.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/suresh.jpg",
+        "photo": "",
+        "tagline": "Principal Program Manager, Microsoft"
+      }
+    ],
+    "title": "Azure Data Centers in India",
+    "Abstract": "Microsoft will add Azure regions in India this year. In this session, Suresh Venkateswaran provides an overview of the India regions and describes how these make life better for you. Expect to leave this session with insight on how you can make best use of these regions as a customer or partner of Microsoft.",
+    "begins": "2015-03-18T16:15:00",
+    "ends": "2015-03-18T17:10:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "13861537-dc45-45c3-b482-f308ad12d519",
+    "speakers": [
+      {
+        "id": "197f52f6-15c9-43d8-aa76-0fefb954e70d",
+        "name": "Aditee Rele",
+        "twitterHandle": "@aditeerele",
+        "bio": "Aditee has worked extensively with enterprise customers in India and abroad, architecting and designing large scale enterprise solutions on Microsoft Stack with specific expertise in the retail, pharma and manufacturing domain. At Microsoft, Aditee leads technical evangelism for India and is responsible for driving adoption of Microsoft products & technologies for devices, apps and cloud. In her role, she works with the developer ecosystem to help them build world-class solutions on the Microsoft Stack. In addition, she also works with large enterprises, small businesses, start-ups and ISVs to provide them with strategic and technical guidance to help them realize the potential of mobility and cloud for their businesses. Aditee is a proponent of women in technology, and is passionate about helping women build and sustain long term careers in IT, while also providing a platform for women to be successful in their entrepreneurial journey.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/aditee.jpg",
+        "photo": "",
+        "tagline": "Lead Technology Evangelist, Microsoft India"
+      }
+    ],
+    "title": "Designing & Implementing Hybrid Cloud Solutions",
+    "Abstract": "Azure is an enterprise-proven hybrid cloud solution platform, and with Azure it is easier to build applications that span both on-premises and the cloud. In this session, we will focus on the different Hybrid options available, advantages & disadvantages and some practical, real-world solutions and services.",
+    "begins": "2015-03-19T14:00:00",
+    "ends": "2015-03-19T14:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "075c1ed6-4fd3-4ee1-8d46-4a716be94c04",
+    "speakers": [
+      {
+        "id": "7433a43d-505b-40d3-9f46-5240360799b3",
+        "name": "Rohit Gulati",
+        "twitterHandle": "@rohitgulati82",
+        "bio": "Rohit is an Infrastructure Architect with Microsoft Consulting Services. He has more than 11 years of experience in architecture, building and delivering Infrastructure solutions on Microsoft Virtualization, Private Cloud, Microsoft Azure, O365, Unified Communications, System Center and Technology Strategy consulting. He is a regular speaker at MS TechEd India since 2009. He has also featured in other Microsoft internal and external events.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/rohit.jpg",
+        "photo": "",
+        "tagline": "Architect, Microsoft India"
+      },
+      {
+        "id": "1F190C53-646D-4C0F-8CC3-32A49304D74F",
+        "name": "Abhishek Hemrajani",
+        "twitterHandle": "",
+        "bio": "Abhishek Hemrajani is a Program Manager for Azure Site Recovery, Microsoft's DRaaS offering. He has over 8 years of experience in the US Telecommunications industry and Software Product Management. He focuses on the Storage Configuration and Management, Private Cloud Configuration, Service Business Continuity, and Compliance and Privacy scenarios for Azure Site Recovery. He recently delivered the SAN Array-Based Replication scenario within Azure Site Recovery. Abhishek has a Bachelor of Engineering (Information Technology) from University of Mumbai, a Master of Science (Computer Science) from The University of Texas at Arlington, and a MBA (Marketing&amp; Strategy) from the Indian School of Business, Hyderabad.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/abhi.jpg",
+        "photo": "",
+        "tagline": "Program Manager, Azure Site Recovery, Microsoft"
+      }
+    ],
+    "title": "Building an effective DR strategy with Azure Site Recovery ",
+    "Abstract": "Organizations of all sizes are now able to afford Disaster Recovery as a Service (DRaaS) powered by Azure Site Recovery (ASR) with InMage Scout. Azure Site Recovery contributes to the business and workload continuity strategy by orchestrating replication, failover and recovery of virtual machines in a number of deployment scenarios. InMage scout extends ASR's capabilities for working with environment running on VMWare and will also support recovery to Azure. In this session, learn about the business and technical details of DRaaS to expand your understanding of ASR with InMage Scout. Also, we will explore best practices and guidelines for DR planning, deployment and DR drills with ASR.",
+    "begins": "2015-03-19T12:00:00",
+    "ends": "2015-03-19T12:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "609c6aa9-add3-4c19-b559-849d37346a39",
+    "speakers": [
+      {
+        "id": "303a78b4-88d8-4e4e-8c31-18b731aec39f",
+        "name": "MS Anand",
+        "twitterHandle": "@tweetmsanand",
+        "bio": "As a Cloud Solution Architect with Microsoft, Anand enables partners & customers to envision and design the right Microsoft Azure solutions to meet their exact needs. Apart from Microsoft Azure, his areas of expertise include Directory Services, Virtualization, Private and Hybrid Clouds. With a wide range of technological experience over his 18 years in the industry, Anand has been assisting partners & customers in rapidly finding solutions to their technology challenges. He is a familiar face at various Microsoft events and is a Microsoft Certified Solution Expert (MCSE) on Server Infrastructure & Private Cloud and a Microsoft Specialist on Azure.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/ms.jpg",
+        "photo": "",
+        "tagline": "Cloud Solutions Architect, Microsoft"
+      }
+    ],
+    "title": "Operational Guidance for Azure IaaS",
+    "Abstract": "This chalk talk will help you understand why and how cloud (Azure) is different from traditional IT. The session will help highlight the Cloud principles and concepts that have an impact on IT processes, roles, tasks & people skills. Learn from best practices on how to embed the required processes and roles within the IT organization and system management tooling.",
+    "begins": "2015-03-19T11:00:00",
+    "ends": "2015-03-19T11:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "c9e5c14f-e29e-4fcb-a675-c0edd8438925",
+    "speakers": [
+      {
+        "id": "bce7915a-abd3-4db7-ac2a-1f8d5249cae0",
+        "name": "Anil Dwarkanath",
+        "twitterHandle": "",
+        "bio": "Anil is a Cloud Solution Architect with the Partner Enterprise Architect team. He has been with Microsoft for over 6 years and has over 14 years of experience in application development and solution architecture on Microsoft technologies. He has architected and delivered solutions on .Net Technologies, SharePoint, Dynamics CRM, Hybrid Cloud, Private Cloud, Windows 8 Applications, Natural User Interface based applications and Office 365. He is currently focused on driving consumption on Azure and is aligned with GSIs and partners in India. He is certified in .Net, SQL Server, SharePoint, Azure and TOGAF.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/anil.jpg",
+        "photo": "",
+        "tagline": "Cloud Solution Architect, Microsoft India"
+      },
+      {
+        "id": "53427A17-C9BC-4607-9F3B-0B7A65EEE89C",
+        "name": "Saket Suman",
+        "twitterHandle": "",
+        "bio": "Saket is a Senior Consultant with Microsoft Consultancy Services India, and has got around 13 years of Industry experience with 2 years of strong experience in the area of Data Science and Machine Learning. He is also a Solution Architect in the areas of Big Data and IoT.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/SaketS.jpg",
+        "photo": "",
+        "tagline": "Sr. Consultant, Microsoft India"
+      }
+    ],
+    "title": "Building High scale web applications on Azure",
+    "Abstract": "This chalk talk covers various architectural patterns and proven practices that can be leveraged to build high scale applications such as web applications, cloud services and mobile applications. In this session, we will walk through reference architectures that will enable building high scale applications on Azure.",
+    "begins": "2015-03-19T15:00:00",
+    "ends": "2015-03-19T15:55:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "94f030f8-6d96-40d5-b072-72ad41aeb5e0",
+    "speakers": [
+      {
+        "id": "9fc9e73b-c22e-400e-98a7-d7b931a64dfe",
+        "name": "Vinod Kumar M",
+        "twitterHandle": "@vinodk_sql",
+        "bio": "Vinod Kumar M currently works at the MTC as a Technical Architect. He has been helping customers take technology decisions for their enterprise software's high performance. He is a regular speaker at all Microsoft conferences for the past 10 years on subjects like databases, application tuning and performance tuning. He is a blogger and has authored two books.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/vinod.jpg",
+        "photo": "",
+        "tagline": "Architect, MTC, Microsoft India"
+      },
+      {
+        "id": "0EC90F13-DD0A-4A13-91CB-07760B3C1251",
+        "name": "Govind Kanshi",
+        "twitterHandle": "",
+        "bio": "Govind from MTC in Bangalore helps customers adopt Azure and Data platform to address their business challenges. His areas of expertise include developing applications and finding/fixing bottlenecks. He believes in constant learning and sharing his knowledge with his peers. Data is what excites him and he has worked with customers across Reqular/NoSql stores and the BigData ones.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/govind.jpg",
+        "photo": "",
+        "tagline": "MTC - Technical Director, Microsoft India"
+      }
+    ],
+    "title": "Hardcore Inside: Building highly performant and scalable data architectures",
+    "Abstract": "Data is everywhere and it is taken for granted. Azure presents a great platform to use this platform to Ingress, retain, backup, massage and analyze the data that we have. There are a number of options one can use inside the Azure platform to perform each of these techniques. From standard storage optimizations, messaging options, Ingress using NRT, consuming IoT data, using HDInsight for their big data problems etc. In this interactive chalk talk, we will demystify what are the choices we have when dealing with data inside Azure, when to use what technologies, how to I bring some of your open source investments into Azure for data architectures, why one would choose one over the other and beyond",
+    "begins": "2015-03-19T16:15:00",
+    "ends": "2015-03-19T17:10:00",
+    "location": "Pune",
+    "Trackid": "78abc301-2e79-44bf-934c-a80ee2a073cb",
+    "TrackName": "Chalk Talk"
+  },
+  {
+    "id": "17691afc-3abf-4f9d-a396-8b5005c9b6a6",
+    "speakers": [
+      {
+        "id": "f0098514-125b-4af4-86ed-2c498ef9c6f3",
+        "name": "Deepak Maheshwari",
+        "twitterHandle": "",
+        "bio": "Deepak Maheshwari works as Sr. Partner Tech Consultant with Microsoft and provide Presales and Consulting support to Microsoft partners. Deepak Primarily works on Microsoft Public and Private cloud and he has also presented these technologies on various different forums like TechNet, TechED, MMS and TechReady.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/deepak.jpg",
+        "photo": "",
+        "tagline": "Sr. Partner Tech Consultant, Microsoft"
+      },
+      {
+        "id": "7ce92c6e-f461-4118-8e40-c2fcde05290e",
+        "name": "Saba Haleem",
+        "twitterHandle": "@Saba_Haleem02",
+        "bio": "Saba Haleem has about 11 years of experience in the IT industry and is a Partner Technical Consultant (GPS) with Microsoft for the past 7 years. She primarily works on .NET technologies such as ASP.NET and Entity Framework. Her specialized domain is Windows Azure which includes Windows Azure platform and infrastructure services. As a Partner Consultant she provides advisory development as well as presales support to partners. She helps partners in reviewing and architecting the Windows Azure and SOA apps and organizes technical readiness events for their customers. She also helps them with planning and development of POC for customers. She extensively works with the field teams to provide support on RFP, customer proposals and helps partners to close deals. Before Microsoft she worked with Newgen Software as a Java programmer and as a Group Leader with NIIT for 5 years.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/saba.jpg",
+        "photo": "",
+        "tagline": "Partner Technical Consultant, Microsoft India"
+      }
+    ],
+    "title": "Deploying Cloud Service in Windows Azure with SQL Azure",
+    "Abstract": "The HOL will cover creation of front end using Azure Cloud Service and backend using Azure SQL database. The tasks cover creation of database and tables in Microsoft Azure SQL Database and how to perform CRUD operations. The tasks related to Azure Cloud Service involve creation of Cloud service and connecting it to Azure SQL database and at the end test the Cloud Service locally, and then publishing the Cloud Service in Windows Azure.",
+    "begins": "2015-03-18T11:00:00",
+    "ends": "2015-03-18T11:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "bb1bf728-f408-4a4d-ad4f-a67eef9ff1cd",
+    "speakers": [
+      {
+        "id": "90f1fdd9-eb72-483c-95bf-688cdf92becb",
+        "name": "Amitabha Roy Chowdhury",
+        "twitterHandle": "",
+        "bio": "Amitabha Roy Chowdhury is a Sr. Consultant with the Global Partner Services group, which is a key delivery arm of MPN (Microsoft Partner Network). He has been working with Microsoft partners across the globe helping them with presales & competitive assistance, feature overview advice, and proof-of-concept, deployment guidance, etc. He has been with Microsoft for over 8 years now and his total experience in IT is 15+ years. Amitabha has worked on a wide range of Microsoft products. His initial days in IT were mainly around Server & Client management including Microsoft Windows. In Microsoft he started off as an Infrastructure Consultant and then he ventured into Unified Communications providing consulting assistance to partners on Lync and Office 365. His latest focus is on Microsoft Azure and he is closely working with the field teams in some of the Asia-Pacific countries, helping them achieve their goals on Azure.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/amitabha.jpg",
+        "photo": "",
+        "tagline": "Sr. Consultant, Global Partner Services"
+      },
+      {
+        "id": "e92cafca-ff0b-4015-ad38-5b994791b295",
+        "name": "Bapi Chakraborty",
+        "twitterHandle": "",
+        "bio": "Bapi works as a Partner Technical Consultant with Microsoft India and has over 11 years of experience in various Microsoft technologies. His current role involves working with sales, engineering and Microsoft partners to provide technical solutions to customers. He is an experienced technical troubleshooter and loves to assist customers and partners in achieving business goals through technology.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/bapi.jpg",
+        "photo": "",
+        "tagline": "Partner Technical Consultant, Microsoft India"
+      }
+    ],
+    "title": "Setup your own Azure IaaS Networks in a lab",
+    "Abstract": "You understand the Microsoft Azure IaaS Networking concept and would like to experience it by setting up your own lab? This is the right place to understand how you can do this. Follow the step by Step guide and experience the new world of Hybrid Networking.This HOL will help you experience:Set up your first Virtual Network on Azure Configure a Point-to-Site Connectivity Configure your second Virtual network Configure a vNet-to-vNet connectivity ",
+    "begins": "2015-03-18T14:00:00",
+    "ends": "2015-03-18T14:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "4de793d9-ca62-4cd9-a363-d3d0c812eb12",
+    "speakers": [
+      {
+        "id": "9f1e2bf7-c2c5-44ce-95cb-825d1bdb3dd5",
+        "name": "Sukriti Sharma",
+        "twitterHandle": "@suksharma",
+        "bio": "Sukriti Sharma is a Technical Evangelist with the developer experience and evangelism team at Microsoft India. Before moving to Azure, she primarily worked on Microsoft technologies like C#/XAML, Windows 8 and Windows Phone app development. Recently her focus has been Azure Websites and Azure Mobile app development. Sukriti holds a degree in electronics and communications from the Manipal Institute Of Technology.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/sukriti.jpg",
+        "photo": "",
+        "tagline": "Technology Evangelist, Microsoft India"
+      },
+      {
+        "id": "9f1e2bf7-c2c5-41ae-95cb-821d1bdf3dd5",
+        "name": "Anubhav Ranjan",
+        "twitterHandle": "@anubhavr05",
+        "bio": "He is a Program Freak who loves coding and is currently working as a Consultant at Xamarin. He is very passionate about Coding and loves to develop Mobile Apps. As a consultant, he helps C# Developers to take their code across platforms.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/anubhav.jpg",
+        "photo": "",
+        "tagline": "Consultant at Xamarin and Microsoft MVP"
+      }
+    ],
+    "title": "Use Notification Hubs to send breaking news to cross-platform mobile apps",
+    "Abstract": "In this HOL, you will learn how to use Azure Notification Hubs to broadcast news notification to a Windows and an Android App. When complete, you will be able to register for breaking-news categories that you are interested in and receive push notifications for only those categories.",
+    "begins": "2015-03-18T16:15:00",
+    "ends": "2015-03-18T17:10:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "b6d22990-540d-4059-a381-277b0328eb8f",
+    "speakers": [
+      {
+        "id": "E252F2D2-C826-48C6-96E0-3FBCD2F4F707",
+        "name": "Mayur Tendulkar",
+        "twitterHandle": "",
+        "bio": "Mayur Tendulkar works as a Developer Evangelist for Xamarin - spreading love for devices and mobility.Before this, he worked as Local Type Inference (for outsiders: Consultant) at Zevenseas, Pune (India). As a Local Type Inference, he has worked in various technologies like .NET, ASP.NET, Windows Mobile/Phone, SharePoint, HTML5, JQuery and currently Windows 8. He has been an active volunteer/member of Pune and Mumbai User Group. He was a Microsoft Student Partner and Lead from 2008-2010. He has delivered numerous sessions at various colleges and corporate trainings at various organizations. He has been a speaker at Microsoft Community Days, TechDays, Virtual TechDays, DevCons, and many others. He loves listening to 80s/90s Angrezi and Bollywood songs. He always say that, 'My first crush is .NET, first love is Windows Mobile. But I am married to Windows Phone and having an affair with SharePoint'",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/mayur.jpg",
+        "photo": "",
+        "tagline": "Developer Evangelist, Xamarin"
+      }
+    ],
+    "title": "Put some Office 365 in your mobile apps",
+    "Abstract": "Office 365 is a service offering from Microsoft which includes: Exchange Online, SharePoint Online, Lync, and OneDrive for Business. These services are backed by powerful, scalable Microsoft Azure Infrastructure. It would be great if these services are extended to mobile devices and made available to all the platforms, making true 'cloud first, mobile first' solutions. This talk is about building mobile applications which can utilize Office 365 services to communicate and collaborate with others.",
+    "begins": "2015-03-19T15:00:00",
+    "ends": "2015-03-19T15:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "b26f6995-38a7-4942-a498-4616a7853cbf",
+    "speakers": [
+      {
+        "id": "0427dc96-29a3-4a8e-9df2-9dcea15509f8",
+        "name": "Puneet Gupta",
+        "twitterHandle": "@puneetguptams",
+        "bio": "Puneet Gupta is an Escalation Engineer with the developer support Internet team at Microsoft and has been supporting web developer technologies for over 10 years. He is an SME on IIS, ASP.NET, COM, COM+, web services and WCF App-Fabric technologies and possesses strong debugging and troubleshooting skills for all Microsoft web based developer technologies. Puneet has been working on Windows Azure Web sites since their general availability.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/puneet.jpg",
+        "photo": "",
+        "tagline": "Escalation Engineer, Microsoft India"
+      },
+      {
+        "id": "874c9b13-21e5-4f38-99ae-751c71e6049f",
+        "name": "Kaushal Kumar Panday",
+        "twitterHandle": "@ikaushalkp",
+        "bio": "Kaushal is an Escalation Engineer with the Azure Websites team in Microsoft. He joined Microsoft as a college hire and has been working on IIS &amp; ASP.NET for more than five years. He has been working on the Microsoft Azure Websites team since the product was in BETA. He is also an expert on IIS and is an SME on SSL and IIS related technologies. He helps Microsoft customers &amp; partners in resolving business critical issues. He has been a speaker on the previous Azure conference and the TechEd's. Kaushal blogs actively (blogs.msdn.com/kaushal) and is among the top 50 MSDN bloggers.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/kaushal.jpg",
+        "photo": "",
+        "tagline": "Escalation Engineer, Microsoft India"
+      }
+    ],
+    "title": "Azure Websites",
+    "Abstract": "During this session we will show you how to create an Azure website and perform basic management and configuration tasks on your site. Create, deploy and manage your Azure website right from Visual Studio.",
+    "begins": "2015-03-18T15:00:00",
+    "ends": "2015-03-18T15:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "c64986cb-433a-4c0f-987f-3a23b8bbcaa5",
+    "speakers": [
+      {
+        "id": "9f1e2bf7-c2c5-44ce-95cb-829fed193dd5",
+        "name": "Kumar Bijayanta",
+        "twitterHandle": "",
+        "bio": "My name is Kumar Bijayanta and I currently work on Azure SQL Databases. I have been with Microsoft for over 6 years and have worked on various technologies including SQL Server Database Engine, Reporting Services and Networking technologies. I am a Microsoft certified  Web developer and also have certifications in SQL Server and Windows Server administration.Prior to Microsoft, I was an Oracle DBA at IBM and and a .NET developer at Intel. I hold a Master's Degree in Computer Application from PESIT, Bangalore.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/kumar.jpg",
+        "photo": "",
+        "tagline": "SQL SE, Microsoft"
+      }
+    ],
+    "title": "Migrating from On-premise to Azure SQL Database",
+    "Abstract": "Migrating a database requires careful planning in order to ensure the application continues to run well. Microsoft Azure SQL Databases are not exactly the same as the SQL Server on-premise and thus one has to understand many differences between them. We have to consider the difference in features, difference in TSQL support, workload to move, changes in the application that will be needed, etc. In this session we have a lab setup for you to try your hands at migrating differnt databases, varying in size and complexity. While the servers are busy migrating the data, we will discuss on determining the right Azure database edition for your workload, feature differences, various approaches to migrate, tools and best practices for migration. Database Migration, Database migration to Azure, Azure SQL database migration, Azure SQL Database Editions, Azure SQL Database migration tools, Migration hands-on",
+    "begins": "2015-03-19T11:00:00",
+    "ends": "2015-03-19T11:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "bd2e80ed-2107-4efd-b2df-300fb5e69020",
+    "speakers": [
+      {
+        "id": "ee3d1a15-3869-4235-9f15-c89eb9c4084a",
+        "name": "Himanshu Bharadwaj",
+        "twitterHandle": "@Himanshubhardw",
+        "bio": "Himanshu works as a Technology Solutions Specialist on Dev Tools with Microsoft India. He has been in the industry for close to 11 years. He has spent a number of years with various Application Life Cycle Management Tools in the IT Industry. For about 2 years he has worked extensively on Microsoft technologies like Visual Studio, Team Foundation Server, Visual Studio Online and Azure. He holds a master's degree in Computer Applications and is passionate about helping customers in successfully adopting Microsoft Tools for Application Life cycle Management.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/himanshu.jpg",
+        "photo": "",
+        "tagline": "Technology Solutions Professional, Microsoft India"
+      }
+    ],
+    "title": "Dev & Test on Azure",
+    "Abstract": "How teams can leverage cloud for their Dev & Test. Visual Studio Online and its capabilities of Team Foundation Server with additional cloud services. Get up and running in minutes on our cloud infrastructure without having to install or configure a single server. Experience Project Management, development, version control, build, test and Release from the cloud service - Visual Studio Online.",
+    "begins": "2015-03-19T12:00:00",
+    "ends": "2015-03-19T12:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "0782fd53-e876-48b8-bb57-12d340ad5763",
+    "speakers": [
+      {
+        "id": "9f1e2bf7-f5f2-44ce-95cb-82e4d1193dd5",
+        "name": "Shashank Shrivatsava",
+        "twitterHandle": "@s_shaxk",
+        "bio": "With more than 10 years of experience in Microsoft Products. I have been working for Microsoft from past 10 years supporting various Web and Cloud technologies like ASP.NET, IIS, MVC, Azure Cloud Services, Azure Websites, Service Bus, Blog etc. I have been actively engaged with PG during BETA stage of Windows Azure Websites, IIS 8.0, Windows Azure Pack and ASP.NET 4.5. I represent Microsoft from support perspective and communicate with corporate customers via telephone, written correspondence, or electronic service regarding technically complex escalated problems identified in Microsoft software products and Azure Platform and manage relationships with those customers.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/shashank.jpg",
+        "photo": "",
+        "tagline": "Escalation Engineer, Microsoft India"
+      }
+    ],
+    "title": "Introducing Application Insights: Detect issues, solve problems and continuously improve your web applications",
+    "Abstract": "'Application Insights is a new Azure service for monitoring your applications' availability, performance, and usage. This session gives an introduction and explains how and why you should use Application Insights.",
+    "begins": "2015-03-18T12:00:00",
+    "ends": "2015-03-18T12:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "c2ef2ff2-7213-439b-b6de-8303e97b1bb5",
+    "speakers": [
+      {
+        "id": "9f1e2bf7-c2c5-44ce-95cb-82e4d1193dd5",
+        "name": "Aditya Sawant",
+        "twitterHandle": "",
+        "bio": "Aditya is technology whiz whose analytical ability combined with the ability to learn and adopt new ideas and practical hard-headed intelligence, makes him build innovative technology solutions. He believes in delivering efficient solutions and leads the customer engagements from the front.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/aditya.jpg",
+        "photo": "",
+        "tagline": "Associate Cloud Consultant, Mectorus"
+      },
+      {
+        "id": "5A1AA0DE-96DC-40E9-A158-9EFDB0C852D7",
+        "name": "Sekhar Reddy",
+        "twitterHandle": "",
+        "bio": "Sekhar is a technology generalist. He has deep expertise across OSes (Linux, Unix and Windows) and programming languages (Java, C#, PHP and Python). He has designed and built very large and highly scalable systems / pipelines using REST, Cloud Technologies, NoSQL & Relational Databases, and Big Data technologies. He enjoys exploring new ways of solving difficult problems, and I bring that same enthusiasm into my designs and code. He loves implementing cool new ideas, working on innovative products, and writing efficient code.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/shekhar.JPG",
+        "photo": "",
+        "tagline": "Sr. Engineer R&D , Mectorus"
+      }
+    ],
+    "title": "Linux Workloads, deploying lamp stack on azure",
+    "Abstract": "Let us understand how to create a LAMP stack on Azure VM, logging, reviewing and executing the control script. Accessing and viewing webpage after ensuring Apache, PHP and MySQL are in running state. We will also see how LAMP stack can be installed manually.",
+    "begins": "2015-03-19T14:00:00",
+    "ends": "2015-03-19T14:55:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "9d525f2e-e32d-480b-901a-146250f90102",
+    "speakers": [
+      {
+        "id": "9f1e2bf7-f2e1-44ce-95cb-82e4d1193dd5",
+        "name": "Ninad Doshi",
+        "twitterHandle": "",
+        "bio": "Ninad has 8 years of experience with stints in Consulting, Service Delivery, Technical Support and Presales. He has designed and built datacenter automation and service management components for IaaS/SaaS Private cloud solutions as well as help build Mobility solutions for customers across the glove. He currently works at the Microsoft Technology Center in Bangalore building custom solutions based on System Center, Hyper-V, Azure IaaS and Enterprise Mobility.",
+        "headshotUrl": "https://www.microsoftazureconference.in/images/ninand.jpg",
+        "photo": "",
+        "tagline": "Technical Architect - MTC"
+      }
+    ],
+    "title": "Azure Active Directory",
+    "Abstract": "In this Hands-on Lab, participants will get a better understanding of the new Azure Active Directory. Participants will perform key activities like - User Creation in Azure Portal. Group Management activities like creation & delegation. Application Integration. This includes Online CRM, Google News and Microsoft OneDrive. Configuring and enabling Multi-Factor Authentication integrated with Microsoft Azure Active Directory. Self-service password reset for users. Branding Sign-In and Access Panel pages.",
+    "begins": "2015-03-19T16:15:00",
+    "ends": "2015-03-19T17:10:00",
+    "location": "Pune",
+    "Trackid": "d2af24e1-bd75-4033-9b18-830286b53cf8",
+    "TrackName": "Hands on Lab"
+  },
+  {
+    "id": "d0c45c35-1cb6-466f-8b90-fcda4b390741",
+    "speakers": [
+      {
+        "id": "FF55FB19-0262-4EB6-B383-B54696AF320A",
+        "name": "Bhaskar Pramanik",
+        "twitterHandle": "",
+        "bio": "Bhaskar Pramanik is the Chairman of Microsoft Corporation (India) Pvt. Ltd., and is responsible for all marketing, operations and business development efforts of Microsoft in the country. He provides leadership for all Microsoft assets in India including R&D facilities, and leads Microsoft's interactions with policy makers, customers and business partners. Bhaskar is committed to defining Microsoft's devices and services strategy for India to help businesses and individuals realize their true potential. He believes in developing people, promoting diversity and inclusion in the workplace, and harnessing India's talent and innovation in a way that the power of IT positively impacts the society at large. At Oracle, his focus was to create higher growth through greater cross leveraging of lines of business; to enhance customer satisfaction and to increase employee motivation. Prior to Oracle, he worked for Sun Microsystems for 13 years as the Managing Director in India and in his last position, served as Global Vice President, Commercial Systems at the US HQ. Bhaskar was instrumental in building the company's presence in India, and for its growth at a pace faster than the industry average. He has held several senior management positions in Digital Equipment India Ltd, Blue Star Ltd, and NELCO. Bhaskar is an engineering graduate from the Indian Institute of Technology, Kanpur. He attended the Advanced Marketing Management Program at Stanford University. He is a member of the Executive Council of NASSCOM and is the co-chair of the National Committee for IT, ITES & e-Commerce at CII. In the past, he has also held leadership positions at other industry bodies, including MAIT and AMCHAM. Bhaskar is based in Gurgaon with his family. His interests are photography and reading.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/bhaskar.jpg",
+        "photo": "",
+        "tagline": "Chairman, Microsoft Corporation (India) Pvt. Ltd"
+      },
+      {
+        "id": "105B329A-6A98-43F6-BF07-2BEE4620FA3D",
+        "name": "Dave Campbell",
+        "twitterHandle": "",
+        "bio": "Dave Campbell is the CTO of Microsoft's Cloud and Enterprise group. In this role he helps formulate, implement, and communicate Microsoft's cloud strategy. Dave has over 25 years of enterprise software experience and has been at Microsoft for 19 years. He has primarily focused on data management challenges and has held a variety of product development roles within Microsoft's SQL Server team during his tenure at Microsoft. Over the last four years, he has focused on the Azure platform and Microsoft's Big Data strategy. Dave has been around long enough to have witnessed the tectonic computing shift from terminals connected to mainframe and minicomputers to client/server and web-scale Internet applications. He believes we are only in the first third of the full Cloud computing transition.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/dave.jpg",
+        "photo": "",
+        "tagline": "CTO, Cloud and Enterprise, Microsoft"
+      }
+    ],
+    "title": "Keynote: Day 1",
+    "Abstract": "",
+    "begins": "2015-03-18T09:30:00",
+    "ends": "2015-03-18T10:40:00",
+    "location": "Pune",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  },
+  {
+    "id": "af15a482-4ac7-4fb0-9724-36ee588a8b78",
+    "title": "Keynote: Day 2",
+    "speakers": [
+      {
+        "id": "86B9192D-5E1A-4A88-B0E4-02701016FD83",
+        "name": "Karan Bajwa",
+        "twitterHandle": "",
+        "bio": "Karan Bajwa joined Microsoft India in November 2007 and after serving in senior leadership roles, was appointed as the Managing Director of the sales and marketing operations of the subsidiary in 2013. In this capacity, his responsibilities include developing the sales and marketing operations, driving strategic partnerships and alliances with global platform partners, channel partners, international and local OEMs services, telecommunications industries and the system builder community. Karan brings with him an excellent understanding of enterprises as well as insight into the Indian public sector, having led the teams for these businesses for the company in the last six years. Karan has spent almost 25 years in the IT and telecom industry, working for organizations like Microsoft, Cisco, and IBM. At Cisco, he handled various roles spanning the organization including Services, Business Development in the APAC region, and also had a successful term as the head of the Public Sector Business for Cisco India. At IBM Singapore, as the head for the Networking Business for ASEAN region, Karan was responsible for transforming the Networking Business across the seven countries in the region. An electronics engineer by training, Karan has a high amount of personal energy and drive and believes in leading from the front. While driving the business, he maintains a balance between strategy and tactics and is extremely focused on team building.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/karan.jpg",
+        "photo": "",
+        "tagline": "Managing Director, Microsoft Corporation (India) Pvt. Ltd."
+      },
+      {
+        "id": "507F6B47-6B07-4463-B9F1-A16F0CDA8344",
+        "name": "Mark Hill",
+        "twitterHandle": "",
+        "bio": "Mark Hill is the Vice President of Open Source Sales and Marketing Strategy at Microsoft, a position he has held since March 2014. Mark is responsible for driving improvements in the perception of Microsoft Openness across customers, partners and Government Officials, and for building the Microsoft business around the open-source ecosystem. Mark is a 22+ year veteran at Microsoft and was one of the very first employees in the South Africa subsidiary when he joined Microsoft in 1992. He subsequently became the Country Manager and was also responsible for establishing Microsoft offices in six other locations across Africa. In 2002 Mark moved to the US as the General Manager of Business Strategy for Microsoft's Worldwide Sales, Marketing and Services Group, and assisted in the implementation and management of the field operations strategy.During this time Mark was part of a team that managed multiple acquisitions relating to security products, and was responsible for integrating the field sales and marketing components of the acquired companies into Microsoft. Mark has held many leadership roles in the Enterprise business at Microsoft, most recently as Vice President of Enterprise Partners.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/mark.jpg",
+        "photo": "",
+        "tagline": "Vice President, Open Source & Marketing Strategy, Microsoft Corporation"
+      },
+      {
+        "id": "a20c9a17-c22f-45c8-8384-d8b144438e6f",
+        "name": "Srikanth Karnakota",
+        "twitterHandle": "",
+        "bio": "Srikanth is Country Head for Server and Cloud Platform in India. In this role Srikanth is responsible for P&L, Strategy and Marketing of Microsoft's Cloud and Server platform business. He was earlier the Director for Cloud Platform Strategy and ISV Partnerships at Microsoft India. In that role, he was responsible for managing the ISV Ecosystem at Microsoft and developing core platform strategies to drive Cloud adoption with customers and partners. He played a key role in building Cloud Services models based on vertical industry solutions for manufacturing clusters and evolved innovative business models with key Telcos, ISVs and SIs to service the small business segment. In his earlier role at Microsoft Srikanth built and incubated Start-ups and Venture capital engagement arm of Microsoft India. He led strategic business development activities thru start-up engagements and ISVs. Prior to joining Microsoft, Srikanth was the early employee of a young Indian product start up Pramati Technologies and established their business development activities in the US. He spent 5 years in the US establishing the business operations and winning customers with very early versions of the product. He led both business development and product marketing in a highly competitive infrastructure software market.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/srikanth.jpg",
+        "photo": "",
+        "tagline": "Country Head, Server & Cloud Platform, Microsoft India"
+      }
+    ],
+    "Abstract": "",
+    "begins": "2015-03-19T09:30:00",
+    "ends": "2015-03-19T10:50:00",
+    "location": "Pune",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  },
+  {
+    "id": "afdb8868-0e9f-4562-af58-512869c34080",
+    "speakers": [
+      {
+        "id": "71BB3D60-7C66-4339-8042-3244E7A8C61D",
+        "name": "Joseph Landes",
+        "twitterHandle": "",
+        "bio": "Joseph is a 17 year veteran of Microsoft and has been in a variety of roles both in Sales & Marketing and Business Groups. These include 5 years in OEM Sales, 5 years with Server and Tools, and a term as the Server Business Group Lead in Central and Eastern Europe. Joseph led the biggest IT Pro and Developer launch in the history of Microsoft with the Heroes Happen Here' launch of Windows Server 2008, SQL Server 2008, and Visual Studio 2008. Joseph is an avid reader and sports fan, and is looking forward to visiting every state and union territory in India.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/joseph.jpg",
+        "photo": "",
+        "tagline": "General Manager, Developer Experience & Evangelism, Microsoft India"
+      },
+      {
+        "id": "4F9161D3-6BFA-436D-876E-957E39F1DF58",
+        "name": "Tyler Bryson",
+        "twitterHandle": "",
+        "bio": "Tyler Bryson oversees marketing and operations for Microsoft's India subsidiary. He functions as Microsoft's Chief Marketing Officer for India and has broad responsibility for all sales, marketing and services operations. Tyler's responsibilities span both consumer and commercial customers as well as the Microsoft partners that serve these customers. Tyler has over 20 years of experience in the software industry in a variety of executive sales and marketing positions. Prior to his current role, Tyler worked as Microsoft's General Manager for the Enterprise and Partners Group in the Southwest United States.Tyler also worked as the General Manager for Marketing and Sales for the United States Manufacturing and Resources Sector. In this role, Tyler led Microsoft's sales, marketing and partner strategy for the High Tech, Automotive, Industrial Equipment, Oil & Gas and Utilities industry verticals. Before joining Microsoft, Tyler was the Vice President of Sales and Marketing for QuickStart Technologies, an IT services firm that focused on helping organizations understand and apply Microsoft technology. Tyler is focused on making Microsoft grow through the finding and retaining of new customers by creating a desire for Microsoft services and devices. He is passionate about building connected sales and marketing initiatives to drive revenue and market share growth in new markets. He is working to acquire the next 100M new digital consumers for Microsoft in India. Tyler received his bachelor's degree from Brigham Young University and his MBA from the Wharton School of the University of Pennsylvania.",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/tyler.jpg",
+        "photo": "",
+        "tagline": "General Manager, Marketing & Operations, Microsoft India"
+      }
+    ],
+    "title": "Closing Note: Day 2",
+    "Abstract": "",
+    "begins": "2015-03-19T18:15:00",
+    "ends": "2015-03-19T19:30:00",
+    "location": "Pune",
+    "Trackid": "d75cb012-18a1-4d3e-a235-dcc7715cedcc",
+    "TrackName": "Keynote"
+  },
+  {
+    "id": "81e31ede-ffe6-4f26-a6ea-e0d39ac0620e",
+    "speakers": [
+      {
+        "id": "FF55FB19-0262-4EB6-B383-B54BF6AF380A",
+        "name": "Multiple Speakers",
+        "twitterHandle": "",
+        "bio": "",
+        "headshotUrl": "http://www.microsoftazureconference.in/images/spNone.jpg",
+        "photo": "",
+        "tagline": ""
+      }
+    ],
+    "title": "Azure Night Demos",
+    "Abstract": "",
+    "begins": "2015-03-18T20:30:00",
+    "ends": "2015-03-19T06:30:00",
+    "location": "Pune",
+    "Trackid": "cb662cd2-e174-453e-afd8-442e0e76a765",
+    "TrackName": "Azure Night"
+  }
+]

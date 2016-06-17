@@ -1,0 +1,525 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D456D7C-BC86-4744-83C5-9D0610D3B063}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wac2015.Droid</RootNamespace>
+    <AssemblyName>Azure4Sure</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseLatestPlatformSdk>
+    </AndroidUseLatestPlatformSdk>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <NuGetPackageImportStamp>23476f4d</NuGetPackageImportStamp>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <MonoDroidExtraArgs />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkSkip>
+    </AndroidLinkSkip>
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <MonoDroidExtraArgs />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ByteSmith.WindowsAzure.Messaging.Android">
+      <HintPath>..\..\_external\ByteSmith.WindowsAzure.Messaging.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="ExifLib">
+      <HintPath>..\..\packages\ExifLib.PCL.1.0.0\lib\portable-net45+sl50+win+WindowsPhoneApp81+wp80+MonoAndroid10+MonoTouch10\ExifLib.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsViewGroup, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.5.6335\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+    </Reference>
+    <Reference Include="GCM.Client">
+      <HintPath>..\..\Components\GCMClient-1.0\lib\android\GCM.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Messaging.Android">
+      <HintPath>..\..\Components\azure-messaging-1.1.5.3\lib\android\Microsoft.WindowsAzure.Messaging.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile">
+      <HintPath>..\..\packages\WindowsAzure.MobileServices.1.3.1\lib\monoandroid\Microsoft.WindowsAzure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Mobile.Ext">
+      <HintPath>..\..\packages\WindowsAzure.MobileServices.1.3.1\lib\monoandroid\Microsoft.WindowsAzure.Mobile.Ext.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net">
+      <HintPath>..\..\packages\SQLite.Net-PCL.2.5.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLite.Net.Platform.XamarinAndroid">
+      <HintPath>..\..\packages\SQLite.Net.Platform.XamarinAndroid.2.5.1\lib\MonoAndroid\SQLite.Net.Platform.XamarinAndroid.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Components\azure-mobile-services-1.3.1\lib\android\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.28.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Components\azure-mobile-services-1.3.1\lib\android\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.5.6335\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.Android, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.5.6335\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=1.3.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.3.5.6335\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Insights">
+      <HintPath>..\..\packages\Xamarin.Insights.1.9.1.107\lib\MonoAndroid10\Xamarin.Insights.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="Controls\ImageCircleRenderer.cs" />
+    <Compile Include="Controls\LinkLabel.cs" />
+    <Compile Include="Controls\NetworkMonitor.cs" />
+    <Compile Include="Controls\Platforms.cs" />
+    <Compile Include="GcmService.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="SQLite_Android.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Black.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-BlackItalic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Bold.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-BoldCondensed.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-BoldCondensedItalic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-BoldItalic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Condensed.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-CondensedItalic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Italic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Light.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-LightItalic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Medium.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-MediumItalic.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Regular.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-Thin.ttf" />
+    <AndroidAsset Include="Assets\fonts\Roboto-ThinItalic.ttf" />
+    <AndroidAsset Include="Assets\segoeui.ttf" />
+    <None Include="packages.config" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\drawable\slideout.png" />
+    <AndroidResource Include="Resources\drawable\evolve_splash.9.png" />
+    <AndroidResource Include="Resources\drawable\ic_background_evolve.png" />
+    <AndroidResource Include="Resources\drawable\missing_banner.png" />
+    <AndroidResource Include="Resources\drawable\missing_banner_blurred.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\evolve_logo_blue.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\evolve_logo_white.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_navigate.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_pin_blue.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_pin_purple.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_stat_hexagon_blue.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\refresh.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\slideout.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\evolve_logo_blue.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\evolve_logo_white.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_navigate.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_pin_blue.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_pin_purple.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ic_stat_hexagon_blue.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\refresh.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\slideout.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\evolve_logo_blue.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\evolve_logo_white.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\evolve_splash.9.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_navigate.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_pin_blue.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_pin_purple.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ic_stat_hexagon_blue.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\missing.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\presentation.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\refresh.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\slideout.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\evolve_logo_blue.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\evolve_logo_white.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_action_social_share.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_navigate.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_pin_blue.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_pin_purple.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\ic_stat_hexagon_blue.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\missing_banner.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\refresh.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\slideout.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\values\attrs.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\Styles.xml" />
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\missingprofile.png" />
+    <AndroidResource Include="Resources\drawable\speakers\02858a4b-89e5-483e-befa-9d603d455542.png" />
+    <AndroidResource Include="Resources\drawable\speakers\0362bd3b-2d02-49b4-84da-8ee07fe4d33f.png" />
+    <AndroidResource Include="Resources\drawable\speakers\0482def3-5247-418d-bbcf-3984555aba9d.png" />
+    <AndroidResource Include="Resources\drawable\speakers\06d370d6-2863-4a97-8ad1-b0ba075d9294.png" />
+    <AndroidResource Include="Resources\drawable\speakers\074a53c4-3c92-4a8a-8537-c04c781019de.png" />
+    <AndroidResource Include="Resources\drawable\speakers\0838696f-efab-4442-a14d-68d5c9125e2e.png" />
+    <AndroidResource Include="Resources\drawable\speakers\08da06ad-7690-4310-acc8-e9a7af9fb73c.png" />
+    <AndroidResource Include="Resources\drawable\speakers\0b64efb6-b47e-42c8-93c2-6f02bc7442b1.png" />
+    <AndroidResource Include="Resources\drawable\speakers\0be8c32e-ae0e-48e0-9505-6b6b6efc2eb0.png" />
+    <AndroidResource Include="Resources\drawable\speakers\191a33fc-c169-47c2-b070-a8324e051461.png" />
+    <AndroidResource Include="Resources\drawable\speakers\1d08db9a-3440-40b3-93b1-b296c4eef9c5.png" />
+    <AndroidResource Include="Resources\drawable\speakers\1d17cb60-dda7-43e1-a19f-4bcbff61b52d.png" />
+    <AndroidResource Include="Resources\drawable\speakers\1e236373-2652-4100-9113-88b78dafc147.png" />
+    <AndroidResource Include="Resources\drawable\speakers\1e910960-d90a-48cb-8525-b2e5170c3d23.png" />
+    <AndroidResource Include="Resources\drawable\speakers\201c01ec-6322-498c-aa1e-e5e10c09c904.png" />
+    <AndroidResource Include="Resources\drawable\speakers\22fd91f8-f39c-4e85-8140-8891c199593e.png" />
+    <AndroidResource Include="Resources\drawable\speakers\23ae86b1-8ff8-4386-908d-c5f6bc608b4f.png" />
+    <AndroidResource Include="Resources\drawable\speakers\244b5539-ea43-4e5a-be19-67b613054df0.png" />
+    <AndroidResource Include="Resources\drawable\speakers\27438598-d33b-4d3b-a2a6-1e99e41aed33.png" />
+    <AndroidResource Include="Resources\drawable\speakers\2b947870-87ba-428b-a419-61e07652d79a.png" />
+    <AndroidResource Include="Resources\drawable\speakers\2d211683-2d63-48ec-9598-9a8d9937b2f7.png" />
+    <AndroidResource Include="Resources\drawable\speakers\2e118671-fc0c-4d61-b660-17bf53a3385a.png" />
+    <AndroidResource Include="Resources\drawable\speakers\34d0c08a-7c1b-4d80-a42a-720363a56ece.png" />
+    <AndroidResource Include="Resources\drawable\speakers\36733c63-4cc0-47ed-9d01-a569488462e7.png" />
+    <AndroidResource Include="Resources\drawable\speakers\382f5a4c-e94d-4e31-89b6-f1be517d5dbf.png" />
+    <AndroidResource Include="Resources\drawable\speakers\39c2a7d0-1672-4e9d-8359-25fc3ddba06c.png" />
+    <AndroidResource Include="Resources\drawable\speakers\3a69a546-01bf-46cd-abc7-7e1783243989.png" />
+    <AndroidResource Include="Resources\drawable\speakers\414e54fa-21e8-46bb-9e74-64ed50df3515.png" />
+    <AndroidResource Include="Resources\drawable\speakers\44f89bfa-91eb-44a3-af9f-df89aabec777.png" />
+    <AndroidResource Include="Resources\drawable\speakers\4625c894-f72b-4fb1-8ec1-eac74a2830da.png" />
+    <AndroidResource Include="Resources\drawable\speakers\491f86b0-f230-4f08-866e-113c9fbe1db9.png" />
+    <AndroidResource Include="Resources\drawable\speakers\4b76fb76-e9ad-47fb-8734-ecb1a024e514.png" />
+    <AndroidResource Include="Resources\drawable\speakers\4be6428e-b5a6-4c1a-9d7b-1deaef166231.png" />
+    <AndroidResource Include="Resources\drawable\speakers\4d13f8ab-71ea-4a37-bb05-9efb433314dc.png" />
+    <AndroidResource Include="Resources\drawable\speakers\4d5d1f66-ae9a-43e8-9b66-681abd74e644.png" />
+    <AndroidResource Include="Resources\drawable\speakers\52e03c41-3696-4c76-b164-b5ea3d4fa77e.png" />
+    <AndroidResource Include="Resources\drawable\speakers\54bbef47-705f-4bad-84e9-aa3e7ca8a573.png" />
+    <AndroidResource Include="Resources\drawable\speakers\54e4668a-61e4-4f65-b886-5caff83a77ee.png" />
+    <AndroidResource Include="Resources\drawable\speakers\55343c70-a5af-4999-9e5b-ec397a0afba3.png" />
+    <AndroidResource Include="Resources\drawable\speakers\5ddc7891-37ee-4bc8-9882-4c2750aa5eb4.png" />
+    <AndroidResource Include="Resources\drawable\speakers\610fc361-836b-4c31-b7a3-ed696b411286.png" />
+    <AndroidResource Include="Resources\drawable\speakers\637c43c5-78e5-4aaf-9136-264fa1b60664.png" />
+    <AndroidResource Include="Resources\drawable\speakers\6cf9dded-1d72-4fba-96b7-6a7c62093521.png" />
+    <AndroidResource Include="Resources\drawable\speakers\6fc08379-91c4-4a62-9d60-d938f3779f2a.png" />
+    <AndroidResource Include="Resources\drawable\speakers\7663e802-28b0-429b-9a76-142c629ef69a.png" />
+    <AndroidResource Include="Resources\drawable\speakers\79b071bb-3390-44f1-8073-41cb00894fd6.png" />
+    <AndroidResource Include="Resources\drawable\speakers\7c91f1e6-0b7e-4e9d-b352-6bde1ff3a246.png" />
+    <AndroidResource Include="Resources\drawable\speakers\7f2d56a3-5603-430e-bc59-11b3d752e517.png" />
+    <AndroidResource Include="Resources\drawable\speakers\810d9797-a6a0-42dd-8b7c-aadad5b9c940.png" />
+    <AndroidResource Include="Resources\drawable\speakers\83acdbed-ac85-43e7-8d15-1a311fa416f3.png" />
+    <AndroidResource Include="Resources\drawable\speakers\88fdbb23-6d23-462b-ae96-9b2b71f339db.png" />
+    <AndroidResource Include="Resources\drawable\speakers\8b87ca59-4b88-4525-a296-0c1571ed04d1.png" />
+    <AndroidResource Include="Resources\drawable\speakers\8c6185b1-aca7-428f-a65d-fac4961fa3d9.png" />
+    <AndroidResource Include="Resources\drawable\speakers\8ff234d0-4458-460b-a063-3082975b5824.png" />
+    <AndroidResource Include="Resources\drawable\speakers\90e7f371-2af8-4d65-ba7f-56e285592ba0.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9241e1bf-126e-49ce-a50f-fcf088af9a36.png" />
+    <AndroidResource Include="Resources\drawable\speakers\929caeba-eae6-4ed2-86ec-0e58d66f7f22.png" />
+    <AndroidResource Include="Resources\drawable\speakers\92c23f11-5524-4af4-a4ea-eda4c48aef11.png" />
+    <AndroidResource Include="Resources\drawable\speakers\92fd9728-7e3d-44a8-8f7b-d75881d71841.png" />
+    <AndroidResource Include="Resources\drawable\speakers\961d1846-b6b7-4dd3-995f-12394f7d84e0.png" />
+    <AndroidResource Include="Resources\drawable\speakers\97489ec8-802b-445c-8774-ad27645af450.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9a148bbf-a19f-440e-ba64-1ba1f51c05f1.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9b2e0561-f66b-4889-b66d-b8d48e67c3be.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9b916326-85ac-4f26-9482-9f10637303e0.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9c4804ca-412e-41ab-8823-869174b73be3.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9ed35bf1-aeeb-420d-9cf8-e76ebbc81955.png" />
+    <AndroidResource Include="Resources\drawable\speakers\9f0683eb-83a1-4f18-aa24-b18610fa82ac.png" />
+    <AndroidResource Include="Resources\drawable\speakers\a3255872-0515-4ecd-af03-250ef7ff6947.png" />
+    <AndroidResource Include="Resources\drawable\speakers\a51d236d-64a0-4903-ba2e-6add8984f97d.png" />
+    <AndroidResource Include="Resources\drawable\speakers\a913d904-07a0-421f-8107-365ea4df0d82.png" />
+    <AndroidResource Include="Resources\drawable\speakers\a92bf506-23fb-48fd-8968-08c6c3416385.png" />
+    <AndroidResource Include="Resources\drawable\speakers\aa1fdc85-c1cb-414c-a136-2a0f0dfd3bc7.png" />
+    <AndroidResource Include="Resources\drawable\speakers\abb8df8d-c778-4d4d-92db-f2523220b906.png" />
+    <AndroidResource Include="Resources\drawable\speakers\af91a71e-c642-4894-b8cb-9ea77ba5a3fb.png" />
+    <AndroidResource Include="Resources\drawable\speakers\b033e639-9176-4de8-b021-3c894aadab44.png" />
+    <AndroidResource Include="Resources\drawable\speakers\b0de79e6-6d7c-49cd-b5d6-f156174addd1.png" />
+    <AndroidResource Include="Resources\drawable\speakers\b140397f-1e38-4019-b089-5fcb9433ff38.png" />
+    <AndroidResource Include="Resources\drawable\speakers\b34f203b-0d5d-4162-b477-0b2f29cd3451.png" />
+    <AndroidResource Include="Resources\drawable\speakers\b73c9d12-0c7e-4672-8b44-7e20e744551d.png" />
+    <AndroidResource Include="Resources\drawable\speakers\b8170d0a-e909-411a-9676-a0ca32a87120.png" />
+    <AndroidResource Include="Resources\drawable\speakers\bc8190bc-59e4-428f-a25e-872b84a9bf47.png" />
+    <AndroidResource Include="Resources\drawable\speakers\bfea6463-1440-4240-a2d9-cc169007a222.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c5579cb7-1ab8-4a4e-9342-2bd44bd4a66b.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c5addcc3-ab5e-47db-aa42-2dba8c1a136b.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c63b8396-8258-4cf3-b7ab-c5f122cf2153.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c75a3c2e-431d-48cc-9046-1afdc2c9c62f.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c7bd59aa-1053-4489-84b0-5ae750fdce0d.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c97036f3-dc68-4b9b-ac2a-66e1a254dfac.png" />
+    <AndroidResource Include="Resources\drawable\speakers\c9f9172d-6f14-4f4b-bd2f-94f48a0b8a9b.png" />
+    <AndroidResource Include="Resources\drawable\speakers\cdf95dca-3eed-430e-9825-0d92bc6ab44a.png" />
+    <AndroidResource Include="Resources\drawable\speakers\cf2a3617-cc8a-4528-8404-fd5bb1c9c66e.png" />
+    <AndroidResource Include="Resources\drawable\speakers\d227d7d6-f336-4d49-99ab-d18b53fe6cca.png" />
+    <AndroidResource Include="Resources\drawable\speakers\d6b7f781-a0e0-44b5-94cb-35878c15f09e.png" />
+    <AndroidResource Include="Resources\drawable\speakers\d850466c-9962-465f-a2d0-c2da942f8121.png" />
+    <AndroidResource Include="Resources\drawable\speakers\dcea79d7-db9b-4eb7-977a-92b1fc548501.png" />
+    <AndroidResource Include="Resources\drawable\speakers\df751ded-61b1-48bd-a0f8-cc14b9a50ee2.png" />
+    <AndroidResource Include="Resources\drawable\speakers\df832762-2b03-48f3-9675-fe7a1b8ec8a8.png" />
+    <AndroidResource Include="Resources\drawable\speakers\dff3da0a-8aba-4e94-826a-ee4785bc420c.png" />
+    <AndroidResource Include="Resources\drawable\speakers\e5158710-e6cc-40c3-a747-e04bc12a38a4.png" />
+    <AndroidResource Include="Resources\drawable\speakers\e6eea02b-bea1-4727-aadc-d5ba658e1d0c.png" />
+    <AndroidResource Include="Resources\drawable\speakers\e8d874f8-8068-4dbe-a010-661ae1c170dd.png" />
+    <AndroidResource Include="Resources\drawable\speakers\e9fed160-cada-4c2e-9252-e41a2d896a41.png" />
+    <AndroidResource Include="Resources\drawable\speakers\f0b88ae3-ef5c-4752-8d45-22a05b220338.png" />
+    <AndroidResource Include="Resources\drawable\speakers\f4a206ec-2537-4798-ba3d-b3ec90013287.png" />
+    <AndroidResource Include="Resources\drawable\speakers\faecd774-287a-449b-bb26-f4573a53b43f.png" />
+    <AndroidResource Include="Resources\drawable\speakers\fc765901-1bfc-47ba-b59b-86180f4acc11.png" />
+    <AndroidResource Include="Resources\drawable\speakers\missingprofile.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ApplicationIconW.png" />
+    <AndroidResource Include="Resources\drawable\ApplicationIconW.png" />
+    <AndroidResource Include="Resources\drawable\images\missingprofile.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\02858a4b-89e5-483e-befa-9d603d455542.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\0362bd3b-2d02-49b4-84da-8ee07fe4d33f.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\0482def3-5247-418d-bbcf-3984555aba9d.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\06d370d6-2863-4a97-8ad1-b0ba075d9294.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\074a53c4-3c92-4a8a-8537-c04c781019de.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\0838696f-efab-4442-a14d-68d5c9125e2e.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\08da06ad-7690-4310-acc8-e9a7af9fb73c.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\0b64efb6-b47e-42c8-93c2-6f02bc7442b1.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\0be8c32e-ae0e-48e0-9505-6b6b6efc2eb0.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\191a33fc-c169-47c2-b070-a8324e051461.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\1d08db9a-3440-40b3-93b1-b296c4eef9c5.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\1d17cb60-dda7-43e1-a19f-4bcbff61b52d.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\1e236373-2652-4100-9113-88b78dafc147.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\1e910960-d90a-48cb-8525-b2e5170c3d23.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\201c01ec-6322-498c-aa1e-e5e10c09c904.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\22fd91f8-f39c-4e85-8140-8891c199593e.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\23ae86b1-8ff8-4386-908d-c5f6bc608b4f.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\244b5539-ea43-4e5a-be19-67b613054df0.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\27438598-d33b-4d3b-a2a6-1e99e41aed33.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\2b947870-87ba-428b-a419-61e07652d79a.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\2d211683-2d63-48ec-9598-9a8d9937b2f7.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\2e118671-fc0c-4d61-b660-17bf53a3385a.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\34d0c08a-7c1b-4d80-a42a-720363a56ece.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\36733c63-4cc0-47ed-9d01-a569488462e7.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\382f5a4c-e94d-4e31-89b6-f1be517d5dbf.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\39c2a7d0-1672-4e9d-8359-25fc3ddba06c.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\3a69a546-01bf-46cd-abc7-7e1783243989.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\414e54fa-21e8-46bb-9e74-64ed50df3515.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\44f89bfa-91eb-44a3-af9f-df89aabec777.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\4625c894-f72b-4fb1-8ec1-eac74a2830da.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\491f86b0-f230-4f08-866e-113c9fbe1db9.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\4b76fb76-e9ad-47fb-8734-ecb1a024e514.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\4be6428e-b5a6-4c1a-9d7b-1deaef166231.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\4d13f8ab-71ea-4a37-bb05-9efb433314dc.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\4d5d1f66-ae9a-43e8-9b66-681abd74e644.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\52e03c41-3696-4c76-b164-b5ea3d4fa77e.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\54bbef47-705f-4bad-84e9-aa3e7ca8a573.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\54e4668a-61e4-4f65-b886-5caff83a77ee.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\55343c70-a5af-4999-9e5b-ec397a0afba3.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\5ddc7891-37ee-4bc8-9882-4c2750aa5eb4.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\610fc361-836b-4c31-b7a3-ed696b411286.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\637c43c5-78e5-4aaf-9136-264fa1b60664.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\6cf9dded-1d72-4fba-96b7-6a7c62093521.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\6fc08379-91c4-4a62-9d60-d938f3779f2a.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\7663e802-28b0-429b-9a76-142c629ef69a.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\79b071bb-3390-44f1-8073-41cb00894fd6.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\7c91f1e6-0b7e-4e9d-b352-6bde1ff3a246.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\7f2d56a3-5603-430e-bc59-11b3d752e517.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\810d9797-a6a0-42dd-8b7c-aadad5b9c940.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\83acdbed-ac85-43e7-8d15-1a311fa416f3.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\88fdbb23-6d23-462b-ae96-9b2b71f339db.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\8b87ca59-4b88-4525-a296-0c1571ed04d1.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\8c6185b1-aca7-428f-a65d-fac4961fa3d9.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\8ff234d0-4458-460b-a063-3082975b5824.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\90e7f371-2af8-4d65-ba7f-56e285592ba0.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9241e1bf-126e-49ce-a50f-fcf088af9a36.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\929caeba-eae6-4ed2-86ec-0e58d66f7f22.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\92c23f11-5524-4af4-a4ea-eda4c48aef11.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\92fd9728-7e3d-44a8-8f7b-d75881d71841.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\961d1846-b6b7-4dd3-995f-12394f7d84e0.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\97489ec8-802b-445c-8774-ad27645af450.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9a148bbf-a19f-440e-ba64-1ba1f51c05f1.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9b2e0561-f66b-4889-b66d-b8d48e67c3be.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9b916326-85ac-4f26-9482-9f10637303e0.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9c4804ca-412e-41ab-8823-869174b73be3.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9ed35bf1-aeeb-420d-9cf8-e76ebbc81955.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\9f0683eb-83a1-4f18-aa24-b18610fa82ac.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\a3255872-0515-4ecd-af03-250ef7ff6947.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\a51d236d-64a0-4903-ba2e-6add8984f97d.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\a913d904-07a0-421f-8107-365ea4df0d82.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\a92bf506-23fb-48fd-8968-08c6c3416385.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\aa1fdc85-c1cb-414c-a136-2a0f0dfd3bc7.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\abb8df8d-c778-4d4d-92db-f2523220b906.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\af91a71e-c642-4894-b8cb-9ea77ba5a3fb.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\b033e639-9176-4de8-b021-3c894aadab44.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\b0de79e6-6d7c-49cd-b5d6-f156174addd1.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\b140397f-1e38-4019-b089-5fcb9433ff38.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\b34f203b-0d5d-4162-b477-0b2f29cd3451.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\b73c9d12-0c7e-4672-8b44-7e20e744551d.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\b8170d0a-e909-411a-9676-a0ca32a87120.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\bc8190bc-59e4-428f-a25e-872b84a9bf47.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\bfea6463-1440-4240-a2d9-cc169007a222.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c5579cb7-1ab8-4a4e-9342-2bd44bd4a66b.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c5addcc3-ab5e-47db-aa42-2dba8c1a136b.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c63b8396-8258-4cf3-b7ab-c5f122cf2153.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c75a3c2e-431d-48cc-9046-1afdc2c9c62f.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c7bd59aa-1053-4489-84b0-5ae750fdce0d.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c97036f3-dc68-4b9b-ac2a-66e1a254dfac.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\c9f9172d-6f14-4f4b-bd2f-94f48a0b8a9b.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\cdf95dca-3eed-430e-9825-0d92bc6ab44a.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\cf2a3617-cc8a-4528-8404-fd5bb1c9c66e.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\d227d7d6-f336-4d49-99ab-d18b53fe6cca.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\d6b7f781-a0e0-44b5-94cb-35878c15f09e.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\d850466c-9962-465f-a2d0-c2da942f8121.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\dcea79d7-db9b-4eb7-977a-92b1fc548501.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\df751ded-61b1-48bd-a0f8-cc14b9a50ee2.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\df832762-2b03-48f3-9675-fe7a1b8ec8a8.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\dff3da0a-8aba-4e94-826a-ee4785bc420c.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\e5158710-e6cc-40c3-a747-e04bc12a38a4.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\e6eea02b-bea1-4727-aadc-d5ba658e1d0c.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\e8d874f8-8068-4dbe-a010-661ae1c170dd.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\e9fed160-cada-4c2e-9252-e41a2d896a41.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\f0b88ae3-ef5c-4752-8d45-22a05b220338.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\f4a206ec-2537-4798-ba3d-b3ec90013287.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\faecd774-287a-449b-bb26-f4573a53b43f.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\fc765901-1bfc-47ba-b59b-86180f4acc11.png" />
+    <AndroidResource Include="Resources\drawable\images\speakers\missingprofile.png" />
+    <AndroidResource Include="Resources\drawable\heart2.png" />
+    <AndroidResource Include="Resources\drawable\heart2empty.png" />
+    <AndroidResource Include="Resources\drawable\background.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\background.png" />
+    <AndroidResource Include="Resources\drawable\hamburgerIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\hamburgerIcon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\hamburgerIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\hamburgerIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\hamburgerIcon.png" />
+    <AndroidResource Include="Resources\drawable\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable\splash3.png" />
+    <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splash.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\ApplicationIconW.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\ApplicationIconW.png" />
+    <AndroidResource Include="Resources\drawable\azurelogo_30.png" />
+    <AndroidResource Include="Resources\drawable\azurelogo_100.png" />
+    <AndroidResource Include="Resources\drawable\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wac2015\Wac2015.csproj">
+      <Name>Wac2015</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\raw\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="azure-messaging">
+      <Visible>False</Visible>
+      <Version>1.1.5.3</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="azure-mobile-services">
+      <Visible>False</Visible>
+      <Version>1.3.1</Version>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="GCMClient">
+      <Visible>False</Visible>
+      <Version>1.0</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets'))" />
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
+  <Import Project="..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.1.3.5.6335\build\portable-win+net45+wp80+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
